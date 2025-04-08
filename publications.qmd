@@ -5,7 +5,7 @@ format:
     includes:
       head: lightbox-head.html
     theme: lux
-    css: styles.css
+    #css: styles.css
     toc: true
     page-layout: full
 ---

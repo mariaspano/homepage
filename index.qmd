@@ -3,7 +3,7 @@ title: "Maria Spano"
 format:
   html:
     theme: lux
-    css: styles.css
+    #css: styles.css
     toc: true
     page-layout: full
 ---

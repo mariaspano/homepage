@@ -55,7 +55,7 @@ Here are some recent highlights from my teaching and conference presentations:
 </style>
 
 <div class="gallery-grid">
-
+  
 <a href="images/pub3.jpg" data-lightbox="Teaching at University of Padova">
   <img src="images/pub3.jpg" alt="Teaching at University of Padova">
   <p style="font-size: 0.8rem; text-align: center; margin-top: 0.3rem;">Teaching at University of Padova</p>

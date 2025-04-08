@@ -56,23 +56,23 @@ Here are some recent highlights from my teaching and conference presentations:
 
 <div class="gallery-grid">
 
-<a href="pub3.jpg" data-lightbox="Teaching at University of Padova">
-  <img src="pub3.jpg" alt="Teaching at University of Padova">
+<a href="images/pub3.jpg" data-lightbox="Teaching at University of Padova">
+  <img src="images/pub3.jpg" alt="Teaching at University of Padova">
   <p style="font-size: 0.8rem; text-align: center; margin-top: 0.3rem;">Teaching at University of Padova</p>
 </a>
 
-<a href="pub2.jpeg" data-lightbox="TALL session">
-  <img src="pub2.jpeg" alt="TALL session">
+<a href="images/pub2.jpeg" data-lightbox="TALL session">
+  <img src="images/pub2.jpeg" alt="TALL session">
   <p style="font-size: 0.8rem; text-align: center; margin-top: 0.3rem;">TALL session</p>
 </a>
 
-<a href="pub4.jpeg" data-lightbox="Teaching at Federico II">
-  <img src="pub4.jpeg" alt="Teaching at Federico II">
+<a href="images/pub4.jpeg" data-lightbox="Teaching at Federico II">
+  <img src="images/pub4.jpeg" alt="Teaching at Federico II">
   <p style="font-size: 0.8rem; text-align: center; margin-top: 0.3rem;"> Data Science and Social Research Conference </p>
 </a>
 
-<a href="publ.jpeg" data-lightbox="JADT Brussels">
-  <img src="publ.jpeg" alt="JADT Brussels">
+<a href="images/publ.jpeg" data-lightbox="JADT Brussels">
+  <img src="images/publ.jpeg" alt="JADT Brussels">
   <p style="font-size: 0.8rem; text-align: center; margin-top: 0.3rem;">JADT 2024 – Université Saint-Louis Bruxelles</p>
 </a>
 

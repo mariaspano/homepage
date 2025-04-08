@@ -9,7 +9,7 @@ format:
     toc: false
 ---
 
-## 👨‍👩‍👧 **My Family**
+## **My Family**
 
 <style>
 .gallery-grid {
@@ -44,42 +44,41 @@ format:
 
 <div class="gallery-grid">
 
-<a href="family.jpeg" data-lightbox="family"><img src="family.jpeg" alt="Maria and daughter"></a>
-<a href="family2.jpeg" data-lightbox="family"><img src="family2.jpeg" alt="On the snow"></a>
-<a href="family3.jpeg" data-lightbox="family"><img src="family3.jpeg" alt="On the snow"></a>
-<a href="io4.jpeg" data-lightbox="family"><img src="io4.jpeg" alt=""></a>
-<a href="family5.jpeg" data-lightbox="family"><img src="family5.jpeg" alt="kids"></a>
-<a href="family1.jpeg" data-lightbox="family"><img src="family1.jpeg" alt="kids"></a>
-<a href="lumacone.jpeg" data-lightbox="family"><img src="lumacone.jpeg" alt=""></a>
-<a href="family4.jpeg" data-lightbox="family"><img src="family4.jpeg" alt=""></a>
-<a href="family7.jpeg" data-lightbox="family"><img src="family7.jpeg" alt=""></a>
-<a href="io2.jpeg" data-lightbox="family"><img src="io2.jpeg" alt=""></a>
-<a href="io.jpeg" data-lightbox="family"><img src="io.jpeg" alt=""></a>
-<a href="family8.jpeg" data-lightbox="family"><img src="family8.jpeg" alt=""></a>
-<a href="family6.jpeg" data-lightbox="family"><img src="family6.jpeg" alt=""></a>
-<a href="neve2023.jpeg" data-lightbox="family"><img src="neve2023.jpeg" alt=""></a>
-<a href="lago.jpeg" data-lightbox="family"><img src="lago.jpeg" alt=""></a>
+<a href="images/family.jpeg" data-lightbox="family"><img src="images/family.jpeg" alt="Maria and daughter"></a>
+<a href="images/family2.jpeg" data-lightbox="family"><img src="images/family2.jpeg" alt="On the snow"></a>
+<a href="images/family3.jpeg" data-lightbox="family"><img src="images/family3.jpeg" alt="On the snow"></a>
+<a href="images/io4.jpeg" data-lightbox="family"><img src="images/io4.jpeg" alt=""></a>
+<a href="images/family5.jpeg" data-lightbox="family"><img src="images/family5.jpeg" alt="kids"></a>
+<a href="images/family1.jpeg" data-lightbox="family"><img src="images/family1.jpeg" alt="kids"></a>
+<a href="images/lumacone.jpeg" data-lightbox="family"><img src="images/lumacone.jpeg" alt=""></a>
+<a href="images/family4.jpeg" data-lightbox="family"><img src="images/family4.jpeg" alt=""></a>
+<a href="images/family7.jpeg" data-lightbox="family"><img src="images/family7.jpeg" alt=""></a>
+<a href="images/io2.jpeg" data-lightbox="family"><img src="images/io2.jpeg" alt=""></a>
+<a href="images/io.jpeg" data-lightbox="family"><img src="images/io.jpeg" alt=""></a>
+<a href="images/family8.jpeg" data-lightbox="family"><img src="images/family8.jpeg" alt=""></a>
+<a href="images/family6.jpeg" data-lightbox="family"><img src="images/family6.jpeg" alt=""></a>
+<a href="images/neve2023.jpeg" data-lightbox="family"><img src="images/neve2023.jpeg" alt=""></a>
+<a href="images/lago.jpeg" data-lightbox="family"><img src="images/lago.jpeg" alt=""></a>
 </div>
 
 ---
 
-## **My Work & Travels**  
-# Experiences from my work, travels, and much more...
+## **Experiences from my work, travels, and much more...**  
 
 <div class="gallery-grid">
 
-<a href="travels10.jpeg" data-lightbox="work"><img src="travels10.jpeg" alt="University stairs"></a>
-<a href="travels7.jpeg" data-lightbox="work"><img src="travels7.jpeg" alt="Teaching class"></a>
-<a href="travels4.jpeg" data-lightbox="work"><img src="travels4.jpeg" alt="Teaching class"></a>
-<a href="giardini.jpeg" data-lightbox="work"><img src="giardini.jpeg" alt="Teaching class"></a>
-<a href="ale40.jpeg" data-lightbox="work"><img src="ale40.jpeg" alt="Teaching class"></a>
-<a href="travels8.jpeg" data-lightbox="work"><img src="travels8.jpeg" alt="Teaching class"></a>
-<a href="travels2.jpeg" data-lightbox="work"><img src="travels2.jpeg" alt="TALL"></a>
-<a href="travels1.jpeg" data-lightbox="work"><img src="travels1.jpeg" alt=""></a>
-<a href="travels9.jpg" data-lightbox="work"><img src="travels9.jpg" alt=""></a>
-<a href="travels6.jpeg" data-lightbox="work"><img src="travels6.jpeg" alt=""></a>
-<a href="travels3.jpeg" data-lightbox="work"><img src="travels3.jpeg" alt=""></a>
-<a href="travels5.jpeg" data-lightbox="work"><img src="travels5.jpeg" alt=""></a>
-<a href="travels.jpeg" data-lightbox="work"><img src="travels.jpeg" alt=""></a>
-<a href="concerto.jpeg" data-lightbox="work"><img src="concerto.jpeg" alt="Teaching class"></a>
+<a href="images/travels10.jpeg" data-lightbox="work"><img src="images/travels10.jpeg" alt="University stairs"></a>
+<a href="images/travels7.jpeg" data-lightbox="work"><img src="images/travels7.jpeg" alt="Teaching class"></a>
+<a href="images/travels4.jpeg" data-lightbox="work"><img src="images/travels4.jpeg" alt="Teaching class"></a>
+<a href="images/giardini.jpeg" data-lightbox="work"><img src="images/giardini.jpeg" alt="Teaching class"></a>
+<a href="images/ale40.jpeg" data-lightbox="work"><img src="images/ale40.jpeg" alt="Teaching class"></a>
+<a href="images/travels8.jpeg" data-lightbox="work"><img src="images/travels8.jpeg" alt="Teaching class"></a>
+<a href="images/travels2.jpeg" data-lightbox="work"><img src="images/travels2.jpeg" alt="TALL"></a>
+<a href="images/travels1.jpeg" data-lightbox="work"><img src="images/travels1.jpeg" alt=""></a>
+<a href="images/travels9.jpg" data-lightbox="work"><img src="images/travels9.jpg" alt=""></a>
+<a href="images/travels6.jpeg" data-lightbox="work"><img src="images/travels6.jpeg" alt=""></a>
+<a href="images/travels3.jpeg" data-lightbox="work"><img src="images/travels3.jpeg" alt=""></a>
+<a href="images/travels5.jpeg" data-lightbox="work"><img src="images/travels5.jpeg" alt=""></a>
+<a href="images/travels.jpeg" data-lightbox="work"><img src="images/travels.jpeg" alt=""></a>
+<a href="images/concerto.jpeg" data-lightbox="work"><img src="images/concerto.jpeg" alt="Teaching class"></a>
 </div>

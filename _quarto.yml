@@ -2,18 +2,32 @@ project:
   type: website
 
 website:
-  title: "homepage"
+  title: "Maria Spano"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    background: transparent 
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: publications.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: about me
+        href: about.qmd
+      - icon: book
+        href: https://scholar.google.com/citations?user=TUO_ID
+      - icon: globe
+        href: https://www.researchgate.net/profile/Maria-Spano-2
+
 
 format:
   html:
-    theme: cosmo
+    includes:
+      head: lightbox-head.html
+    theme: lux
     css: styles.css
-    toc: true
+    #include-before-body: navbar.html
+    toc: false
+    page-layout: full
 
-editor: visual
 

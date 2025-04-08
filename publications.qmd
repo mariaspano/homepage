@@ -1,0 +1,201 @@
+---
+title: "Research"
+format: 
+ html:
+    includes:
+      head: lightbox-head.html
+    theme: lux
+    css: styles.css
+    toc: true
+    page-layout: full
+---
+
+## From conference 
+
+::: {.row}
+::: {.col-md-7}
+
+I regularly participate in national and international conferences related to **text mining**, **data science**, and **statistical analysis of textual data**.
+
+Here are some recent highlights from my teaching and conference presentations:
+
+
+:::
+
+::: {.col-md-5}
+<style>
+.gallery-grid {
+  column-count: 3;
+  column-gap: 1rem;
+}
+
+.gallery-grid a img {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.gallery-grid a img:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-grid {
+    column-count: 1;
+  }
+}
+</style>
+
+<div class="gallery-grid">
+
+<a href="pub3.jpg" data-lightbox="Teaching at University of Padova">
+  <img src="pub3.jpg" alt="Teaching at University of Padova">
+  <p style="font-size: 0.8rem; text-align: center; margin-top: 0.3rem;">Teaching at University of Padova</p>
+</a>
+
+<a href="pub2.jpeg" data-lightbox="TALL session">
+  <img src="pub2.jpeg" alt="TALL session">
+  <p style="font-size: 0.8rem; text-align: center; margin-top: 0.3rem;">TALL session</p>
+</a>
+
+<a href="pub4.jpeg" data-lightbox="Teaching at Federico II">
+  <img src="pub4.jpeg" alt="Teaching at Federico II">
+  <p style="font-size: 0.8rem; text-align: center; margin-top: 0.3rem;"> Data Science and Social Research Conference </p>
+</a>
+
+<a href="publ.jpeg" data-lightbox="JADT Brussels">
+  <img src="publ.jpeg" alt="JADT Brussels">
+  <p style="font-size: 0.8rem; text-align: center; margin-top: 0.3rem;">JADT 2024 – Université Saint-Louis Bruxelles</p>
+</a>
+
+</div>
+
+
+---
+
+:::
+:::
+
+
+
+## Journal Articles
+
+- Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., Spano, M. (2024). *Comparative science mapping: a novel conceptual structure analysis with metadata*. *Scientometrics*. [DOI](https://doi.org/10.1007/s11192-024-05161-6)
+
+- Celardo, L., Misuraca, M., Spano, M. (2024). *Geo-referenced sentiment analysis for tourists' points of interest: the case of Matera*. *Rivista di Economia, Demografia e Statistica*, 78(2), 103–114.
+
+- Del Gaudio, G., Di Taranto, E., Spano, M. (2023). *Progress in Tourism Management: Insights for the tourism industry corporate governance*. *Corporate Ownership & Control*, 20(2), 182–195. [DOI](https://doi.org/10.22495/cocv20i2art15)
+
+- D’Aniello, L., Spano, M., Cuccurullo, C., Aria, M. (2022). *Academic Health Centers’ configurations, scientific productivity, and impact: insights from the Italian setting*. *Health Policy*, 1–7. [DOI](https://doi.org/10.1016/j.healthpol.2022.09.007)
+
+- Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., Spano, M. (2022). *Thematic Analysis as a new culturomic tool: the social media coverage on COVID-19 pandemic in Italy*. *Sustainability*, 14(6), 3643.
+
+- Mattera, R., Misuraca, M., Scepi, G., Spano, M. (2022). *Mixed frequency composite indicators for measuring public sentiment in the EU*. *Quality & Quantity*, 57, 2357–2382.
+
+- Pels, J., Mele, C., Spano, M. (2022). *From market driving to market shaping: impact of a language shift*. *Journal of Business & Industrial Marketing*. [DOI](https://doi.org/10.1108/JBIM-10-2021-0503)
+
+- Trinidad Segovia, J. E., Di Sciorio, F., Mattera, R., Spano, M. (2022). *A Bibliometric Analysis on Agent-Based Models in Finance: Identification of Community Clusters and Future Research Trends*. *Complexity*, 1–11. [DOI](https://dx.doi.org/10.1155/2022/4741566)
+
+- Fedele, F., Aria, M., Esposito, V., Micillo, M., Cecere, G., Spano, M., De Marco, G. (2022). *COVID-19 vaccine hesitancy: a survey in a population highly compliant to common vaccinations*. *Human Vaccines & Immunotherapeutics*, 17(13), 3348–3354. [DOI](https://dx.doi.org/10.1080/21645515.2021.1928460)
+
+- Mattera, R., Misuraca, M., Scepi, G., Spano, M. (2021). *A mixed-frequency approach for exchange rates predictions*. *Electronic Journal of Applied Statistical Analysis*, 14(1), 230–253.
+
+- Misuraca, M., Scepi, G., Spano, M. (2021). *Using Opinion Mining as an educational analytic: an integrated strategy for the analysis of students’ feedback*. *Studies in Educational Evaluation*, 68, 100979.
+
+- Aria, M., Misuraca, M., Spano, M. (2020). *Mapping the evolution of social research and data science on 30 years of Social Indicators Research*. *Social Indicators Research*, 149(3), 803–831.
+
+- Misuraca, M., Scepi, G., Spano, M. (2020). *A network-based concept extraction for managing customer requests in a social media care context*. *International Journal of Information Management*, 51, 101956.
+
+- Misuraca, M., Scepi, G., Spano, M. (2020). *A bibliometric study on the evolution of Conjoint Analysis in 1998–2017*. *Italian Journal of Applied Statistics*, 32(1), 9–27.
+
+- Matano, F., Caccavale, M., Esposito, G., Fortelli, A., Scepi, G., Spano, M., Sacchi, M. (2020). *Integrated dataset of deformation measurements in fractured volcanic tuff and meteorological data*. *Earth System Science Data*, 12, 321–344. [DOI](https://doi.org/10.5194/essd-12-321-2020)
+
+- Misuraca, M., Spano, M., Balbi, S. (2019). *BMS: an improved Dunn index for Document Clustering validation*. *Communications in Statistics - Theory and Methods*, 48(20), 5036–5049.
+
+- Balbi, S., Misuraca, M., Spano, M. (2017). *A joint analysis of heterogeneous information on Italian listed firms*. *Italian Journal of Applied Statistics*, 29(2–3), 257–272.
+
+- Dlova, N.C., Fabbrocini, G., Lauro, C., Spano, M., Tosti, A., Hift, R.H. (2015). *Quality of life in South African black women with alopecia: a pilot study*. *International Journal of Dermatology*. [DOI](https://doi.org/10.1111/ijd.13042)
+
+- Ginesti, G., Macchioni, R., Sannino, G., Spano, M. (2013). *The Impact of IASB’s Guidelines for Preparing Management Commentary: Evidence from Italian Listed Firms*. *Journal of Modern Accounting and Auditing*, 9(3), 305–320.
+
+## Book Chapters
+
+- De Mascellis, A.M., Misuraca, M., Scepi, G., Spano, M. (2025). *An automatic framing approach to analyse newspaper and press language*. In XXX XXX (Eds.), *Data Science and Social Research IV – Methods, Technologies and Applications*, Springer, Cham, pp. xx–xx. [Submitted]
+
+- Misuraca, M., Scepi, G., Spano, M. (2023). *Network-based dimensionality reduction for textual datasets*. In Brentari, E., Chiodi, M., Wit, E.-J. C. (Eds.), *Models for Data Analysis*, Springer, Cham, pp. 175–190.
+
+- Misuraca, M., Spano, M. (2020). *Unsupervised analytic strategies to explore large document collections*. In Iezzi, D.F., Mayaffre, D., Misuraca, M. (Eds.), *Text Analytics. Advances and Challenges*, Springer, Heidelberg, pp. 17–28.
+
+- Stawinoga, A., Spano, M., Triunfo, N. (2016). *Extracting meta-information by using Network Analysis tools*. In Alleva, G., Giommi, A. (Eds.), *Studies in Theoretical and Applied Statistics*, Springer. [DOI](https://doi.org/10.1007/978-3-319-27274-0_9)
+
+## Conference Proceedings
+
+- Aria, M., Cuccurullo, C., D'Aniello, L., Misuraca, M., Spano, M. (2024). *Keyword-enhanced summarization from scientific literature through an integrated approach*. In XXX (Eds.), *Book of Short Papers of the ASA Conference 2024*, pp. xxx–xxx. [Forthcoming]
+
+- Belfiore, A., Spano, M., Cuccurullo, C., Giordano, W. (2024). *Beyond Text: Unveiling Corporate Communication Strategies Through Textual Analysis of CEO Letters*. In Dister, A., Longrée, D. (Eds.), *Mots competes textes déchiffrés (JADT24)*, Presses Universitaires De Louvain, Vol. 1, pp. 69–78. ISBN: 978-2-39061-471-5
+
+- Aria, M., Cuccurullo, C., D'Aniello, L., Misuraca, M., Spano, M. (2024). *Breaking Barriers with TALL: A Text Analysis Shiny app for ALL*. In Dister, A., Longrée, D. (Eds.), *Mots competes textes déchiffrés (JADT24)*, Presses Universitaires De Louvain, Vol. 1, pp. 39–48. ISBN: 978-2-39061-471-5
+
+- Celardo, L., Misuraca, M., Spano, M. (2024). *See Naples, then dye: Spatial categorisation of tourist attractions with reviews' sentiment scores*. In Dister, A., Longrée, D. (Eds.), *JADT2024 - 17th International Conference on the Statistical Analysis of Textual Data*, Presses Universitaires De Louvain, Vol. 1, pp. 189–198. ISBN: 978-2-39061-471-5
+
+- D'Aniello, L., Aria, M., Cuccurullo, C., Misuraca, M., Spano, M. (2024). *Extracting knowledge from scientific literature with an integrated text summarization approach*. In Dister, A., Longrée, D. (Eds.), *Mots competes textes déchiffrés (JADT24)*, Presses Universitaires De Louvain, Vol. 1, pp. 239–248. ISBN: 978-2-39061-471-5
+
+- Costanzo, G.D., Dattilo, B., Di Torrice, M., Misuraca, M., Spano, M. (2024). *Measuring sustainability in tourism via a multi-criteria decision making approach*. In Pollice, A., Mariani, P. (Eds.), *Methodological and Applied Statistics and Demography III (SIS 2024)*, Springer Nature, pp. 1–6.
+
+- Aria, M., Cuccurullo, C., D'Aniello, L., Misuraca, M., Spano, M. (2024). *TALL: A new Shiny app for Text Analysis*. In Pollice, A., Mariani, P. (Eds.), *Methodological and Applied Statistics and Demography III (SIS 2024)*, Springer Nature, pp. 1–7.
+
+- Celardo, L., Misuraca, M., Spano, M. (2024). *Spatial sentiment analysis of tourist points of interest*. In XXX (Eds.), *Proceedings of the 2023 Annual Conference of the Italian Association for Quality of Life Studies (AIQUAV2023)*, UniBa, pp. 1–6.
+
+- Aria, M., Cuccurullo, C., D'Aniello, L., Misuraca, M., Spano, M. (2023). *TAll: A new Shiny app of Text Analysis for All*. In Boschetti, F., Lebani, G.E., Magnini, B., Novielli, N. (Eds.), *Proceedings of the 9th Italian Conference on Computational Linguistics (CLiC-it 2023)*, CEUR Workshop Proceedings, Vol. 3596, pp. 1–4.
+
+- Celardo, L., Misuraca, M., Spano, M. (2023). *Georeferencing sentiment scores to map and explore tourist points of interest*. In Martínez-Torres, R., Toral, S. (Eds.), *Proceedings of the 5th International Conference on Advanced Research Methods and Analytics (CARMA2023)*, Editorial UPV, pp. 115–122.
+
+- Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., Spano, M. (2022). *Text summarization of a scientific document: a comparison of extractive unsupervised methods*. In Misuraca, M., Scepi, G., Spano, M. (Eds.), *Proceedings of the 16th International Conference on Statistical Analysis of Textual Data (JADT2022)*, VADISTAT Press, Napoli, pp. 67–73.
+
+- Cobo, M.J., Spano, M. (2022). *An automatic approach for bibliographical co-words networks labelling*. In Balzanella, A., Bini, M., Cavicchia, C., Verde, R. (Eds.), *Book of Short Papers SIS 2022*, Pearson, pp. 773–779.
+
+- Basile, V., Misuraca, M., Spano, M. (2022). *Thematic analysis on online education issues during COVID-19*. In Balzanella, A., Bini, M., Cavicchia, C., Verde, R. (Eds.), *Book of Short Papers SIS 2022*, Pearson, pp. 437–445.
+
+- Belfiore, A., Spano, M., Mandenaki, K., Giordano, W. (2022). *Exploring companies’ communication strategies in the Covid-19 era*. In Misuraca, M., Scepi, G., Spano, M. (Eds.), *Proceedings of the 16th International Conference on Statistical Analysis of Textual Data (JADT2022)*, VADISTAT Press, Napoli.
+
+- Ferracci, M., Scepi, G., Spano, M., Misuraca, M. (2022). *Nodi discorsivi e processi di progettazione condivisa: Milano e Torino*. In Misuraca, M., Scepi, G., Spano, M. (Eds.), *Proceedings of the 16th International Conference on Statistical Analysis of Textual Data (JADT2022)*, VADISTAT Press, Napoli, pp. 400–407.
+
+- Mattera, R., Misuraca, M., Scepi, G., Spano, M. (2022). *Clustering of financial time series: a bibliometric analysis*. In Misuraca, M., Scepi, G., Spano, M. (Eds.), *Proceedings of the 16th International Conference on Statistical Analysis of Textual Data (JADT2022)*, VADISTAT Press, Napoli, pp. 584–590.
+
+- Aria, M., Cuccurullo, C., D’Aniello, L., Spano, M. (2022). *Thematic evolution of Academic Medical Centers’ research: a focus on Italian public owned AOUs in metropolitan areas*. In Lombardo, R., Camminatiello, I., Simonacci, V. (Eds.), *Book of Short Papers – 10th International Conference IES 2022*, vol. 1, pp. 67–72. ISBN: 978-88-94593-35-8
+
+- Cuccurullo, C., D’Aniello, L., Aria, M., Spano, M. (2021). *Measuring the impact of healthcare indicators on academic medical centers’ scientific production*. In Bertaccini, B., Fabbris, L., Petrucci, A. (Eds.), *ASA 2021 Statistics and Information Systems for Policy Evaluation*, vol. 132, pp. 160–165, Firenze University Press. ISBN: 885518461X
+
+- Cuccurullo, C., D’Aniello, L., Spano, M. (2021). *Thematic atlas of Italian oncological research: the analysis of public IRCCS*. In Bertaccini, B., Fabbris, L., Petrucci, A. (Eds.), *Statistics and Information Systems for Policy Evaluation*, vol. 127, pp. 109–114, Firenze University Press. ISBN: 978-88-5518-304-8, ISSN: 2704-601X. [DOI](https://doi.org/10.36253/978-88-5518-304-8.22)
+
+- Misuraca, M., Scepi, G., Spano, M. (2021). *A comparative study on community detection and clustering algorithms for text categorisation*. In *Proceedings of the 15th International Conference on Statistical Analysis of Textual Data (JADT2020)*. [Online]
+
+- Carannante, M., Mattera, R., Scepi, G., Misuraca, M., Spano, M. (2020). *Nowcasting GDP using mixed-frequency based composite confidence indicators*. In Pollice, A., Salvati, N., Schirripa Spagnolo, F. (Eds.), *Book of Short Papers SIS 2020*, Pearson, pp. 981–986.
+
+- Forciniti, A., Misuraca, M., Scepi, G., Spano, M. (2019). *Generalized Procrustes Analysis for Multilingual Studies*. In Arbia, G., Peluso, S., Pini, A., Rivellini, G. (Eds.), *Smart Statistics for Smart Applications – Book of Short Papers SIS 2019*, Pearson, pp. 879–884.
+
+- Scepi, G., Misuraca, M., Spano, M., Carannante, M., Mattera, R. (2019). *Temporal sentiment analysis with distributed lag models*. In Arbia, G., Peluso, S., Pini, A., Rivellini, G. (Eds.), *Smart Statistics for Smart Applications – Book of Short Papers SIS 2019*, Pearson, pp. 149–156.
+
+- Misuraca, M., Scepi, G., Spano, M. (2018). *A network approach to dimensionality reduction in Text Mining*. In Abbruzzo, A., Brentari, E., Chiodi, M., Piacentino, D. (Eds.), *Book of Short Papers SIS 2018*, Pearson, pp. 344–351.
+
+- Balbi, S., Misuraca, M., Spano, M. (2018). *A two-step strategy for improving categorisation of short texts*. In Iezzi, D.F., Celardo, L., Misuraca, M. (Eds.), *Proceedings of the 14th International Conference on Statistical Analysis of Textual Data (JADT2018)*, UniversItalia, Roma, vol. 1, pp. 60–67.
+
+- Balbi, S., Misuraca, M., Spano, M. (2016). *A cosine-based validation index for Document Clustering*. In Mayaffre, D., Poudat, C., Vanni, L., Magri, V., Follette, P. (Eds.), *Proceedings of the 13th International Conference on Statistical Analysis of Textual Data (JADT2016)*, Presses Fac Imprimeur, Nice, vol. 1, pp. 65–74.
+
+- Misuraca, M., Spano, M. (2013). *Comparing text clustering algorithms from a multivariate perspective*. In Minerva, T., Morlini, I., Palumbo, F. (Eds.), *CLADAG 2013 – 9th Meeting of the Classification and Data Analysis Group – Book of Abstracts*, CLEUP, Padova, pp. 331–334. [eBook]
+
+- Stawinoga, A., Spano, M., Triunfo, N. (2012). *Extracting meta-information by using Network Analysis tools*. In *46th Scientific Meeting of the Italian Statistical Society*, 20–22 June 2012, Rome, Italy (invited session). ISBN: 978-88-6129-882-8.
+
+- Ginesti, G., Maffei, M., Spano, M., Triunfo, N. (2012). *A textual processing approach for analysing the narrative disclosures in corporate reports*. *AMIS 2012 – Accounting and Management Information Systems*. ISSN: 2247-6245.
+
+- Spano, M., Triunfo, N. (2012). *La relazione sulla gestione delle società italiane quotate sul mercato regolamentato*. In *JADT 2012 – 11es Journées internationales d’Analyse statistique des Données Textuelles*. ISBN: 978-2-9601246-0-6.
+
+

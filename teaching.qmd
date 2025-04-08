@@ -1,0 +1,41 @@
+---
+title: "Teaching"
+format:
+  html:
+    toc: true
+---
+
+## University Courses
+
+- Since January 2022: Lecturer of the Laboratory "Text Mining and Literature Review" for the Master's Degree in Economics and Commerce, Department of Economics and Statistics, University of Naples Federico II.
+- 2020–2022: Lecturer in "Computer Science" (Undergraduate programs in Economics and Commerce and Economics of Financial Enterprises), Department of Economics and Statistics, University of Naples Federico II.
+- Since 2020: Lecturer in the integrated course "Data Analysis and Revenue Management" (Bachelor's Degree in Tourism Management), Department of Economics and Statistics, University of Naples Federico II.
+- Since 2015: Teaching assistant for the course "Statistics and Time Series Analysis" (Prof. Germana Scepi), Undergraduate programs in Economics and Commerce and Economics of Financial Enterprises, University of Naples Federico II.
+- 2017–2021: Teaching assistant for the course "Statistical Methods for Data Mining" (Prof. Cristina Davino), Master's Degree in Economics and Commerce, University of Naples Federico II – including 8 hours of lectures and a lab on quantitative text analysis.
+- 2015–2016: Adjunct lecturer for integrative teaching activities in "Statistics", Department of Economics and Statistics, University of Naples Federico II.
+- 2014–2015: Adjunct lecturer in "Statistics", Department of Political Science, Communication and International Relations, University of Macerata.
+- During her PhD, contributed to teaching activities in:
+  - "Business Statistics" (Prof. Simona Balbi): exams;
+  - "Multivariate Analysis" (Prof. Carlo Lauro): exams and student tutoring (2010/2011); lectures on Linear Algebra (2011/2012 and 2012/2013);
+  - "Data Mining" (Prof. Simona Balbi): exams and thesis tutoring;
+  - "Basic Statistics" (Prof. Germana Scepi): exams;
+  - "Market Analysis Statistics" (Prof. Simona Balbi): lab activities and exams (2011/2012 and 2012/2013);
+  - "Linear Models" (Prof. Carlo Lauro): exams and tutoring (2010/2011 and 2011/2012);
+  - "Statistical Methods for Data Mining" (Prof. Simona Balbi): exams and tutoring (2010/2011 to 2015/2016);
+
+## PhD Courses and Seminars
+
+- Seminar: *Textual Data Analysis. Theoretical and Applied Aspects* (8 hours), 04/03/2024, PhD in "Social and Statistical Sciences" (Univ. Naples Federico II) and PhD in "Entrepreneurship and Innovation" (Univ. Campania L. Vanvitelli & Univ. Naples Parthenope).
+- 2024: Lecturer in the Text Mining module of the 2nd-level Master in "Artificial Intelligence & Data Science", University of Calabria.
+- Seminar: *From Words to Numbers. Statistical Methods for Textual Data Analysis*, 04/07/2023, same PhD programs as above.
+- 2020–2023: Lecturer in the Text Mining module of the 2nd-level Master in "Data Science", University of Calabria.
+- Seminar series: *Introduction to Computational Linguistics: statistical methods and software for corpus analysis*, 21–28/03 and 04/04/2023, PhD in "Literary, Linguistic and Comparative Studies", Univ. of Naples L'Orientale.
+- Seminar: *Textual Data Analysis. Theoretical and Applied Aspects*, 21/10/2022 and 25–26/06/2020, PhD in "Entrepreneurship and Innovation", Univ. Campania L. Vanvitelli & Naples Parthenope.
+- Seminar: *Textual Data Analysis. Theoretical and Applied Aspects*, 10/05/2019, same PhD program as above.
+- Lecturer in *Research Synthesis and Bibliometrics Lab* for the PhD in "Entrepreneurship and Innovation", University of Campania Luigi Vanvitelli (29–31 January 2019).
+- Seminar: *PLS-Path Modeling: Theory and Applications*, 20/11/2014, PhD in Agricultural and Food Sciences, University of Naples Federico II.
+
+## Tutorials, Workshops and Summer Schools
+
+- Coordinator and Lecturer – 2nd Edition of the Summer School *Science Mapping – Producing Systematic Literature Reviews with Bibliometrix and Biblioshiny*, K-Synth and Dept. of Economics and Statistics, University of Naples Federico II, 27–31 May 2024, Naples.
+- Coordinator and Lecturer – 1st Edition of the same Summer School, 26–30 June 2023, Naples.

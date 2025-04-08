@@ -1,9 +1,85 @@
 ---
-title: "About"
+title: "About ME"
+format:
+  html:
+    includes:
+      head: lightbox-head.html
+    theme: lux
+    css: styles.css
+    toc: false
 ---
 
-About this site
+## 👨‍👩‍👧 **My Family**
 
-```{r}
-1 + 1
-```
+<style>
+.gallery-grid {
+  column-count: 3;
+  column-gap: 1rem;
+}
+
+.gallery-grid a img {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.gallery-grid a img:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-grid {
+    column-count: 1;
+  }
+}
+</style>
+
+<div class="gallery-grid">
+
+<a href="family.jpeg" data-lightbox="family"><img src="family.jpeg" alt="Maria and daughter"></a>
+<a href="family2.jpeg" data-lightbox="family"><img src="family2.jpeg" alt="On the snow"></a>
+<a href="family3.jpeg" data-lightbox="family"><img src="family3.jpeg" alt="On the snow"></a>
+<a href="io4.jpeg" data-lightbox="family"><img src="io4.jpeg" alt=""></a>
+<a href="family5.jpeg" data-lightbox="family"><img src="family5.jpeg" alt="kids"></a>
+<a href="family1.jpeg" data-lightbox="family"><img src="family1.jpeg" alt="kids"></a>
+<a href="lumacone.jpeg" data-lightbox="family"><img src="lumacone.jpeg" alt=""></a>
+<a href="family4.jpeg" data-lightbox="family"><img src="family4.jpeg" alt=""></a>
+<a href="family7.jpeg" data-lightbox="family"><img src="family7.jpeg" alt=""></a>
+<a href="io2.jpeg" data-lightbox="family"><img src="io2.jpeg" alt=""></a>
+<a href="io.jpeg" data-lightbox="family"><img src="io.jpeg" alt=""></a>
+<a href="family8.jpeg" data-lightbox="family"><img src="family8.jpeg" alt=""></a>
+<a href="family6.jpeg" data-lightbox="family"><img src="family6.jpeg" alt=""></a>
+<a href="neve2023.jpeg" data-lightbox="family"><img src="neve2023.jpeg" alt=""></a>
+<a href="lago.jpeg" data-lightbox="family"><img src="lago.jpeg" alt=""></a>
+</div>
+
+---
+
+## **My Work & Travels**  
+# Experiences from my work, travels, and much more...
+
+<div class="gallery-grid">
+
+<a href="travels10.jpeg" data-lightbox="work"><img src="travels10.jpeg" alt="University stairs"></a>
+<a href="travels7.jpeg" data-lightbox="work"><img src="travels7.jpeg" alt="Teaching class"></a>
+<a href="travels4.jpeg" data-lightbox="work"><img src="travels4.jpeg" alt="Teaching class"></a>
+<a href="giardini.jpeg" data-lightbox="work"><img src="giardini.jpeg" alt="Teaching class"></a>
+<a href="ale40.jpeg" data-lightbox="work"><img src="ale40.jpeg" alt="Teaching class"></a>
+<a href="travels8.jpeg" data-lightbox="work"><img src="travels8.jpeg" alt="Teaching class"></a>
+<a href="travels2.jpeg" data-lightbox="work"><img src="travels2.jpeg" alt="TALL"></a>
+<a href="travels1.jpeg" data-lightbox="work"><img src="travels1.jpeg" alt=""></a>
+<a href="travels9.jpg" data-lightbox="work"><img src="travels9.jpg" alt=""></a>
+<a href="travels6.jpeg" data-lightbox="work"><img src="travels6.jpeg" alt=""></a>
+<a href="travels3.jpeg" data-lightbox="work"><img src="travels3.jpeg" alt=""></a>
+<a href="travels5.jpeg" data-lightbox="work"><img src="travels5.jpeg" alt=""></a>
+<a href="travels.jpeg" data-lightbox="work"><img src="travels.jpeg" alt=""></a>
+<a href="concerto.jpeg" data-lightbox="work"><img src="concerto.jpeg" alt="Teaching class"></a>
+</div>

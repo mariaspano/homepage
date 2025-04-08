@@ -1,11 +1,27 @@
 ---
-title: "homepage"
+title: "Maria Spano"
+format:
+  html:
+    theme: lux
+    css: styles.css
+    toc: true
+    page-layout: full
 ---
 
-This is a Quarto website.
+```{=html}
+<img src="profile.jpg" style="float: right; width: 350px; margin-left: 20px; border-radius: 10px;">
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-```{r}
-1 + 1
-```
+I am a *Tenure-Track Assistant Professor (RTDB)* in **Statistics for Social Science** at the **University of Naples Federico II**, Department of Economics and Statistics.
+
+My research interests include:
+
+- **Text Mining** and **Statistical Analysis of Textual Data**
+- **Social Media** and **Sentiment Analysis**
+- **Science Mapping** and **Bibliometrics**
+- **Data Mining** and **Document Clustering**
+
+Since **2024**, I have been a permanent member of the **Scientific Committee** of the *International Conference on Statistical Analysis of Textual Data (JADT)*, and I collaborate on national and international research projects in the field of **applied statistics and data science**.
+
+You can find more details about my academic profile and projects throughout this website.
+.

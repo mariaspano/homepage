@@ -1,0 +1,718 @@
+/* =============================================================
+   DESIGN SYSTEM — Maria Spano Academic Portfolio
+   Fonts: Cormorant Garamond (display) · Source Sans 3 (body)
+   Palette: Deep Navy · Academic Gold · Clean White
+   ============================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+
+/* --- Design Tokens -------------------------------------------*/
+:root {
+  --c-dark:      #0C1B33;
+  --c-navy:      #1E3A5F;
+  --c-navy-2:    #152843;
+  --c-gold:      #C59A42;
+  --c-gold-lt:   #F5E8CC;
+  --c-gold-dark: #9E7A2E;
+  --c-blue:      #2055A2;
+  --c-blue-dark: #184088;
+  --c-bg:        #FFFFFF;
+  --c-bg-2:      #F8F9FA;
+  --c-text:      #1A202C;
+  --c-muted:     #64748B;
+  --c-border:    #E2E8F0;
+
+  --f-display: 'Cormorant Garamond', Georgia, serif;
+  --f-body:    'Source Sans 3', system-ui, -apple-system, sans-serif;
+
+  --r-sm: 6px;
+  --r-md: 12px;
+  --r-lg: 24px;
+  --r-full: 999px;
+
+  --sh-sm: 0 1px 3px rgba(0,0,0,0.07), 0 1px 2px rgba(0,0,0,0.04);
+  --sh-md: 0 4px 20px rgba(0,0,0,0.09);
+  --sh-lg: 0 8px 40px rgba(0,0,0,0.14);
+
+  --ease: 220ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* =============================================================
+   BASE
+   ============================================================= */
+body {
+  font-family: var(--f-body) !important;
+  color: var(--c-text) !important;
+  background: var(--c-bg) !important;
+  font-size: 1rem;
+  line-height: 1.72;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* =============================================================
+   TYPOGRAPHY
+   ============================================================= */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: var(--f-display) !important;
+  color: var(--c-dark) !important;
+  line-height: 1.2;
+}
+
+h1, .h1 { font-size: clamp(1.9rem, 4vw, 2.7rem); font-weight: 700; margin-bottom: 1rem; }
+
+h2, .h2 {
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  font-weight: 600;
+  margin-top: 3rem;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid var(--c-border);
+  position: relative;
+}
+
+h2::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 48px;
+  height: 2px;
+  background: var(--c-gold);
+  border-radius: 2px;
+}
+
+h3, .h3 { font-size: 1.35rem; font-weight: 500; margin-top: 2rem; margin-bottom: 0.75rem; }
+h4, .h4 { font-size: 1.1rem; font-weight: 500; }
+
+p { margin-bottom: 1.2rem; max-width: 72ch; line-height: 1.75; }
+
+strong { font-weight: 600; color: var(--c-dark); }
+
+hr {
+  border: none;
+  border-top: 1px solid var(--c-border);
+  margin: 2.5rem 0;
+}
+
+a {
+  color: var(--c-blue) !important;
+  text-decoration: none;
+  transition: color var(--ease);
+}
+
+a:hover {
+  color: var(--c-blue-dark) !important;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* =============================================================
+   NAVBAR
+   ============================================================= */
+
+/* Navbar background — force dark on the nav element itself */
+nav.navbar,
+#quarto-header nav.navbar {
+  background-color: var(--c-dark) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.06) !important;
+  padding: 0.75rem 1.5rem;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.25);
+}
+
+/* CSS variables override (lower specificity path, still useful) */
+.navbar {
+  --bs-navbar-color:              rgba(255,255,255,0.80);
+  --bs-navbar-hover-color:        #FFFFFF;
+  --bs-navbar-disabled-color:     rgba(255,255,255,0.30);
+  --bs-navbar-active-color:       #FFFFFF;
+  --bs-navbar-brand-color:        #FFFFFF;
+  --bs-navbar-brand-hover-color:  rgba(255,255,255,0.85);
+  --bs-navbar-toggler-border-color: rgba(255,255,255,0.15);
+  --bs-nav-link-color:            rgba(255,255,255,0.80);
+  --bs-nav-link-hover-color:      #FFFFFF;
+}
+
+/* HIGH-SPECIFICITY nav-link override using #quarto-header ID.
+   ID selector (1,0,0) beats any class-only rule. */
+#quarto-header a.nav-link,
+#quarto-header .navbar-nav a.nav-link,
+#quarto-header .navbar-nav .nav-item a.nav-link {
+  color:                   rgba(255,255,255,0.82) !important;
+  -webkit-text-fill-color: rgba(255,255,255,0.82) !important;
+  background-color:        transparent !important;
+  background:              transparent !important;
+  border:                  none !important;
+  box-shadow:              none !important;
+  outline:                 none !important;
+  font-family:             var(--f-body);
+  font-size:               0.79rem !important;
+  font-weight:             500;
+  letter-spacing:          0.08em;
+  text-transform:          uppercase;
+  padding:                 0.4rem 0.8rem !important;
+  border-radius:           var(--r-sm);
+  transition:              background 220ms ease, color 220ms ease;
+  text-decoration:         none !important;
+}
+
+/* Hover */
+#quarto-header a.nav-link:hover,
+#quarto-header .navbar-nav a.nav-link:hover,
+#quarto-header .navbar-nav .nav-item a.nav-link:hover {
+  color:                   #FFFFFF !important;
+  -webkit-text-fill-color: #FFFFFF !important;
+  background-color:        rgba(255,255,255,0.10) !important;
+  background:              rgba(255,255,255,0.10) !important;
+  text-decoration:         none !important;
+}
+
+/* Active (current page) */
+#quarto-header a.nav-link.active,
+#quarto-header .navbar-nav a.nav-link.active,
+#quarto-header .navbar-nav .nav-item a.nav-link.active {
+  color:                   #FFFFFF !important;
+  -webkit-text-fill-color: #FFFFFF !important;
+  background-color:        rgba(197,154,66,0.28) !important;
+  background:              rgba(197,154,66,0.28) !important;
+  font-weight:             600;
+}
+
+/* Brand */
+#quarto-header .navbar-brand,
+.navbar .navbar-brand {
+  font-family:    var(--f-display) !important;
+  font-size:      1.2rem !important;
+  font-weight:    600;
+  color:          #FFFFFF !important;
+  -webkit-text-fill-color: #FFFFFF !important;
+  background:     transparent !important;
+  border:         none !important;
+  letter-spacing: 0.02em;
+  text-decoration: none !important;
+  transition:     opacity var(--ease);
+}
+
+#quarto-header .navbar-brand:hover,
+.navbar .navbar-brand:hover { opacity: 0.82; text-decoration: none !important; }
+
+/* Icons */
+#quarto-header .bi,
+.navbar .bi { font-size: 1rem; transition: transform var(--ease); }
+#quarto-header a.nav-link:hover .bi { transform: translateY(-1px); }
+
+/* =============================================================
+   PAGE LAYOUT
+   ============================================================= */
+#quarto-content {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.title {
+  font-family: var(--f-display) !important;
+  font-size: clamp(1.9rem, 4vw, 2.7rem) !important;
+  font-weight: 700 !important;
+  color: var(--c-dark) !important;
+}
+
+/* =============================================================
+   HOME PAGE — Hide Quarto title (replaced by hero)
+   ============================================================= */
+.page-home #title-block-header {
+  display: none;
+}
+
+.page-home #quarto-content {
+  padding-top: 0;
+}
+
+/* ---- HERO -------------------------------------------------- */
+.ms-hero {
+  background: linear-gradient(135deg, var(--c-dark) 0%, var(--c-navy) 100%);
+  color: #FFFFFF;
+  padding: 5rem 2rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  /* full-bleed within quarto full layout */
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ms-hero-text {
+  flex: 1;
+  max-width: 560px;
+}
+
+.ms-hero-label {
+  font-family: var(--f-body);
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--c-gold);
+  margin-bottom: 1rem;
+}
+
+.ms-hero-name {
+  font-family: var(--f-display) !important;
+  font-size: clamp(3rem, 7vw, 5.5rem) !important;
+  font-weight: 700 !important;
+  color: #FFFFFF !important;
+  line-height: 1.0;
+  margin-bottom: 1.2rem;
+  letter-spacing: -0.01em;
+}
+
+.ms-hero-role {
+  font-family: var(--f-body);
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.82);
+  margin-bottom: 1.8rem;
+}
+
+.ms-hero-role em {
+  color: var(--c-gold);
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* Research interest tags */
+.ms-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.ms-tag {
+  display: inline-block;
+  font-family: var(--f-body);
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid rgba(197,154,66,0.5);
+  border-radius: var(--r-full);
+  color: var(--c-gold);
+  background: rgba(197,154,66,0.1);
+  transition: background var(--ease), color var(--ease), border-color var(--ease);
+}
+
+.ms-tag:hover {
+  background: var(--c-gold);
+  color: var(--c-dark);
+  border-color: var(--c-gold);
+}
+
+/* CTA Buttons */
+.ms-cta { display: flex; gap: 0.8rem; flex-wrap: wrap; }
+
+.ms-btn {
+  display: inline-block;
+  font-family: var(--f-body);
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 0.65rem 1.6rem;
+  border-radius: var(--r-full);
+  text-decoration: none !important;
+  transition: all var(--ease);
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.ms-btn-gold {
+  background: var(--c-gold);
+  color: var(--c-dark) !important;
+  border: 2px solid var(--c-gold);
+}
+
+.ms-btn-gold:hover {
+  background: var(--c-gold-dark);
+  border-color: var(--c-gold-dark);
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(197,154,66,0.35);
+}
+
+.ms-btn-outline {
+  background: transparent;
+  color: rgba(255,255,255,0.88) !important;
+  border: 2px solid rgba(255,255,255,0.35);
+}
+
+.ms-btn-outline:hover {
+  background: rgba(255,255,255,0.10);
+  border-color: rgba(255,255,255,0.65);
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+}
+
+/* Profile photo in hero */
+.ms-hero-photo {
+  flex-shrink: 0;
+}
+
+.ms-hero-photo img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--c-gold);
+  box-shadow: 0 0 0 8px rgba(197,154,66,0.15), var(--sh-lg);
+  display: block;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.ms-hero-photo img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 0 10px rgba(197,154,66,0.20), 0 12px 48px rgba(0,0,0,0.3);
+}
+
+/* ---- STATS BAR --------------------------------------------- */
+.ms-stats {
+  background: var(--c-navy-2);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0;
+  /* full-bleed */
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.ms-stat {
+  flex: 1;
+  min-width: 140px;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  border-right: 1px solid rgba(255,255,255,0.07);
+  text-align: center;
+  transition: background var(--ease);
+}
+
+.ms-stat:last-child { border-right: none; }
+
+.ms-stat:hover { background: rgba(255,255,255,0.04); }
+
+.ms-stat-n {
+  font-family: var(--f-display);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--c-gold);
+  line-height: 1;
+  margin-bottom: 0.35rem;
+}
+
+.ms-stat-l {
+  font-family: var(--f-body);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.58);
+  line-height: 1.4;
+}
+
+/* ---- HOME BIO SECTION -------------------------------------- */
+.ms-bio {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem 4rem;
+}
+
+.ms-bio h2 { margin-top: 0; }
+
+/* =============================================================
+   INNER PAGE LAYOUT (non-home)
+   ============================================================= */
+.page-publications #quarto-content,
+.page-teaching #quarto-content,
+.page-about #quarto-content,
+.page-contacts #quarto-content {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+/* =============================================================
+   PUBLICATIONS — type badges + card list
+   ============================================================= */
+/* Working paper badge */
+.ms-badge {
+  display: inline-block;
+  font-family: var(--f-body);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.55rem;
+  border-radius: var(--r-full);
+  margin-left: 0.4rem;
+  vertical-align: middle;
+}
+
+.ms-badge-review {
+  background: #FEF3C7;
+  color: #92400E;
+  border: 1px solid #FDE68A;
+}
+
+.ms-badge-forthcoming {
+  background: #DBEAFE;
+  color: #1E40AF;
+  border: 1px solid #BFDBFE;
+}
+
+/* Publication list */
+.page-publications ul {
+  padding-left: 0;
+}
+
+.page-publications ul > li {
+  list-style: none;
+  padding: 0.9rem 1.1rem 0.9rem 1.2rem;
+  background: var(--c-bg);
+  border: 1px solid var(--c-border);
+  border-left: 3px solid transparent;
+  border-radius: 0 var(--r-sm) var(--r-sm) 0;
+  margin-bottom: 0.65rem;
+  font-size: 0.925rem;
+  line-height: 1.65;
+  box-shadow: var(--sh-sm);
+  transition: border-left-color var(--ease), box-shadow var(--ease), transform var(--ease);
+}
+
+.page-publications ul > li:hover {
+  border-left-color: var(--c-gold);
+  box-shadow: var(--sh-md);
+  transform: translateX(4px);
+}
+
+.page-publications ul { padding-left: 0; }
+
+/* DOI links */
+.page-publications ul > li a {
+  display: inline-block;
+  font-size: 0.76rem;
+  font-weight: 600;
+  padding: 0.1rem 0.45rem;
+  background: var(--c-bg-2);
+  border: 1px solid var(--c-border);
+  border-radius: 4px;
+  text-decoration: none !important;
+  color: var(--c-blue) !important;
+  transition: background var(--ease), color var(--ease), border-color var(--ease);
+}
+
+.page-publications ul > li a:hover {
+  background: var(--c-gold) !important;
+  color: var(--c-dark) !important;
+  border-color: var(--c-gold);
+  text-decoration: none !important;
+}
+
+/* Section heading override for publications TOC */
+.page-publications h2 {
+  font-size: 1.5rem;
+}
+
+/* =============================================================
+   TEACHING
+   ============================================================= */
+.page-teaching ul { padding-left: 0; }
+
+.page-teaching ul > li {
+  list-style: none;
+  padding: 0.75rem 1rem;
+  background: var(--c-bg);
+  border: 1px solid var(--c-border);
+  border-left: 3px solid var(--c-border);
+  border-radius: 0 var(--r-sm) var(--r-sm) 0;
+  margin-bottom: 0.55rem;
+  font-size: 0.935rem;
+  transition: border-left-color var(--ease), background var(--ease);
+}
+
+.page-teaching ul > li:hover {
+  border-left-color: var(--c-gold);
+  background: var(--c-bg-2);
+}
+
+.page-teaching ul > li > ul {
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.page-teaching ul > li > ul > li {
+  background: none;
+  border: none;
+  border-left: 2px solid var(--c-border);
+  border-radius: 0;
+  padding: 0.3rem 0.75rem;
+  font-size: 0.9rem;
+  color: var(--c-muted);
+  margin-bottom: 0.3rem;
+}
+
+.page-teaching ul > li > ul > li:hover {
+  border-left-color: var(--c-gold);
+  color: var(--c-text);
+  background: none;
+}
+
+/* =============================================================
+   CONTACTS
+   ============================================================= */
+.page-contacts ul { padding-left: 0; }
+
+.page-contacts ul > li {
+  list-style: none;
+  padding: 0.8rem 1.2rem;
+  background: var(--c-bg);
+  border: 1px solid var(--c-border);
+  border-radius: var(--r-sm);
+  margin-bottom: 0.55rem;
+  box-shadow: var(--sh-sm);
+  font-size: 0.95rem;
+  transition: border-color var(--ease), box-shadow var(--ease);
+}
+
+.page-contacts ul > li:hover {
+  border-color: var(--c-gold);
+  box-shadow: var(--sh-md);
+}
+
+/* =============================================================
+   GALLERY
+   ============================================================= */
+.gallery-grid { column-count: 3; column-gap: 0.75rem; }
+
+.gallery-grid a { display: block; break-inside: avoid; margin-bottom: 0.75rem; }
+
+.gallery-grid a img {
+  width: 100%;
+  display: block;
+  border-radius: var(--r-md) !important;
+  box-shadow: var(--sh-sm);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-grid a:hover img { transform: scale(1.03); box-shadow: var(--sh-md); }
+
+@media (max-width: 768px) { .gallery-grid { column-count: 2; } }
+@media (max-width: 480px) { .gallery-grid { column-count: 1; } }
+
+/* =============================================================
+   TOC
+   ============================================================= */
+#TOC {
+  border: 1px solid var(--c-border);
+  border-radius: var(--r-md);
+  padding: 1.2rem 1.5rem;
+  background: var(--c-bg);
+  box-shadow: var(--sh-sm);
+  font-size: 0.875rem;
+}
+
+#TOC .toc-item a {
+  color: var(--c-muted) !important;
+  text-decoration: none !important;
+  display: block;
+  padding: 0.2rem 0;
+  transition: color var(--ease), padding-left var(--ease);
+}
+
+#TOC .toc-item a:hover,
+#TOC .toc-item a.active {
+  color: var(--c-gold) !important;
+  padding-left: 0.35rem;
+}
+
+/* =============================================================
+   FOOTER
+   ============================================================= */
+#quarto-footer, .nav-footer {
+  background-color: var(--c-dark) !important;
+  color: rgba(255,255,255,0.52) !important;
+  border-top: 1px solid rgba(255,255,255,0.06) !important;
+  padding: 1.5rem 2rem !important;
+  font-size: 0.78rem;
+}
+
+#quarto-footer a, .nav-footer a {
+  color: rgba(255,255,255,0.72) !important;
+}
+
+/* =============================================================
+   RESPONSIVE — Hero
+   ============================================================= */
+@media (max-width: 900px) {
+  .ms-hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 3.5rem 1.5rem 3rem;
+    gap: 2.5rem;
+  }
+
+  .ms-tags { justify-content: center; }
+  .ms-cta  { justify-content: center; }
+
+  .ms-hero-photo img {
+    width: 200px;
+    height: 200px;
+  }
+
+  p { max-width: 100%; }
+}
+
+@media (max-width: 600px) {
+  .ms-hero-name { font-size: 3rem !important; }
+
+  .ms-stat { min-width: 100px; padding: 1.2rem 0.75rem; }
+  .ms-stat-n { font-size: 1.5rem; }
+
+  h2::after { width: 36px; }
+}
+
+@media (max-width: 992px) {
+  #quarto-header a.nav-link,
+  .navbar .nav-link,
+  .navbar .navbar-nav .nav-link {
+    font-size: 0.85rem !important;
+    padding: 0.5rem 0.75rem !important;
+    letter-spacing: 0.04em;
+  }
+}
+
+/* =============================================================
+   PRINT
+   ============================================================= */
+@media print {
+  .navbar, #quarto-footer, .nav-footer, .ms-hero, .ms-stats { display: none; }
+  body { font-size: 11pt; background: white !important; }
+  a { color: var(--c-text) !important; text-decoration: underline; }
+  h2::after { display: none; }
+  .ms-bio { padding: 0; }
+}
+
+/* =============================================================
+   ACCESSIBILITY
+   ============================================================= */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

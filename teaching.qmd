@@ -1,0 +1,45 @@
+---
+title: "Teaching"
+format:
+  html:
+    toc: true
+    body-classes: "page-teaching"
+---
+
+## University Courses
+
+- Since 2025: Lecturer — *"Text Analysis and Social Media Mining"*, Master's Degree in Economics and Commerce, Department of Economics and Statistics, University of Naples Federico II.
+- Since 2022: Lecturer — Laboratory *"Text Mining and Literature Review"*, Master's Degree in Economics and Commerce, Department of Economics and Statistics, University of Naples Federico II.
+- 2020–2022: Lecturer — *"Computer Science"* (Undergraduate programs in Economics and Commerce, and Economics of Financial Enterprises), Department of Economics and Statistics, University of Naples Federico II.
+- Since 2020: Lecturer — *"Data Analysis and Revenue Management"* (integrated course, Bachelor's Degree in Tourism Management), Department of Economics and Statistics, University of Naples Federico II.
+- Since 2015: Teaching assistant — *"Statistics and Time Series Analysis"* (Prof. Germana Scepi), Undergraduate programs in Economics and Commerce and Economics of Financial Enterprises, University of Naples Federico II.
+- 2017–2021: Teaching assistant — *"Statistical Methods for Data Mining"* (Prof. Cristina Davino), Master's Degree in Economics and Commerce, University of Naples Federico II (including 8 hours of lectures and a lab on quantitative text analysis).
+- 2015–2016: Adjunct lecturer — integrative teaching activities in *"Statistics"*, Department of Economics and Statistics, University of Naples Federico II.
+- 2014–2015: Adjunct lecturer — *"Statistics"*, Department of Political Science, Communication and International Relations, University of Macerata.
+- During her PhD, contributed to teaching activities in:
+  - *"Business Statistics"* (Prof. Simona Balbi): exams;
+  - *"Multivariate Analysis"* (Prof. Carlo Lauro): exams, student tutoring (2010/2011); lectures on Linear Algebra (2011/2012–2012/2013);
+  - *"Data Mining"* (Prof. Simona Balbi): exams and thesis tutoring;
+  - *"Basic Statistics"* (Prof. Germana Scepi): exams;
+  - *"Market Analysis Statistics"* (Prof. Simona Balbi): lab activities and exams (2011/2012–2012/2013);
+  - *"Linear Models"* (Prof. Carlo Lauro): exams and tutoring (2010/2011–2011/2012);
+  - *"Statistical Methods for Data Mining"* (Prof. Simona Balbi): exams and tutoring (2010/2011–2015/2016).
+
+## PhD Courses and Seminars
+
+- 2025: Lecturer — Text Mining module, 2nd-level Master in *"Artificial Intelligence & Data Science"*, University of Calabria.
+- 04/03/2024: Seminar — *"Textual Data Analysis. Theoretical and Applied Aspects"* (8 hours), PhD in "Social and Statistical Sciences" (Univ. Naples Federico II) and PhD in "Entrepreneurship and Innovation" (Univ. Campania L. Vanvitelli & Univ. Naples Parthenope).
+- 2020–2024: Lecturer — Text Mining module, 2nd-level Master in *"Data Science"* and *"Artificial Intelligence & Data Science"*, University of Calabria.
+- 04/07/2023: Seminar — *"From Words to Numbers. Statistical Methods for Textual Data Analysis"*, same PhD programs.
+- 21–28/03 and 04/04/2023: Seminar series — *"Introduction to Computational Linguistics: statistical methods and software for corpus analysis"*, PhD in "Literary, Linguistic and Comparative Studies", University of Naples L'Orientale.
+- 21/10/2022 and 25–26/06/2020: Seminar — *"Textual Data Analysis. Theoretical and Applied Aspects"*, PhD in "Entrepreneurship and Innovation", Univ. Campania L. Vanvitelli & Naples Parthenope.
+- 10/05/2019: Seminar — *"Textual Data Analysis. Theoretical and Applied Aspects"*, same PhD program.
+- 29–31/01/2019: Lecturer — *"Research Synthesis and Bibliometrics Lab"*, PhD in "Entrepreneurship and Innovation", University of Campania Luigi Vanvitelli.
+- 20/11/2014: Seminar — *"PLS-Path Modeling: Theory and Applications"*, PhD in Agricultural and Food Sciences, University of Naples Federico II.
+
+## Tutorials, Workshops and Summer Schools
+
+- 2023–2025: **Coordinator and Lecturer** — Summer School *"Science Mapping – Systematic Literature Review with Bibliometrix and Biblioshiny"* (I, II and III editions), K-Synth and Dept. of Economics and Statistics, University of Naples Federico II. Naples, June 2023 / May 2024 / May 2025.
+- June 2025: **Coordinator and Lecturer** — 1st International Edition, Summer School in *"Science Mapping"*, K-Synth and Dept. of Economics and Statistics, University of Naples Federico II. Naples, 9–13 June 2025.
+- September 2025: Lecturer — Workshop *"Literature Synthesis and Bibliometric Analysis: A Hands-On Workshop"* (with Massimo Aria, Tiziana Spano, Corrado Cuccurullo), RC33 – International Sociological Association.
+- December 2025: Lecturer — Workshop *"Mapping the Frontiers of Knowledge – New Directions in Bibliometric Research and Open Science Analytics"*, University of Salerno, 17 December 2025.

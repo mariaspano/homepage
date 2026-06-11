@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Maria Spano"
+  navbar:
+    background: "#0C1B33"
+    foreground: light
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: publications.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: About Me
+        href: about.qmd
+      - text: Contacts
+        href: contacts.qmd
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=kh_hGT0AAAAJ
+        aria-label: Google Scholar
+      - icon: globe
+        href: https://www.researchgate.net/profile/Maria-Spano-2
+        aria-label: ResearchGate
+
+format:
+  html:
+    includes:
+      head: lightbox-head.html
+    theme: litera
+    css: styles.css
+    toc: false
+    page-layout: full

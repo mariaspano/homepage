@@ -1,0 +1,90 @@
+---
+title: "Maria Spano"
+format:
+  html:
+    toc: false
+    body-classes: "page-home"
+    page-layout: full
+---
+
+```{=html}
+<!-- ====================================================
+     HERO SECTION
+     ==================================================== -->
+<div class="ms-hero">
+  <div class="ms-hero-text">
+    <p class="ms-hero-label">University of Naples Federico II &nbsp;·&nbsp; Dept. of Economics and Statistics</p>
+    <h1 class="ms-hero-name">Maria<br>Spano</h1>
+    <p class="ms-hero-role">
+      Tenure-Track Assistant Professor (RTDB)<br>
+      <em>Statistics for Social Science</em>
+    </p>
+    <div class="ms-tags">
+      <span class="ms-tag">Text Mining</span>
+      <span class="ms-tag">Sentiment Analysis</span>
+      <span class="ms-tag">Science Mapping</span>
+      <span class="ms-tag">Bibliometrics</span>
+      <span class="ms-tag">Data Mining</span>
+      <span class="ms-tag">Document Clustering</span>
+    </div>
+    <div class="ms-cta">
+      <a href="publications.html" class="ms-btn ms-btn-gold">Research &amp; Publications</a>
+      <a href="contacts.html" class="ms-btn ms-btn-outline">Contact</a>
+    </div>
+  </div>
+  <div class="ms-hero-photo">
+    <img src="profile.jpg" alt="Maria Spano">
+  </div>
+</div>
+
+<!-- ====================================================
+     STATS BAR
+     ==================================================== -->
+<div class="ms-stats">
+  <div class="ms-stat">
+    <span class="ms-stat-n">60+</span>
+    <span class="ms-stat-l">Scientific<br>Publications</span>
+  </div>
+  <div class="ms-stat">
+    <span class="ms-stat-n">23</span>
+    <span class="ms-stat-l">Journal<br>Articles</span>
+  </div>
+  <div class="ms-stat">
+    <span class="ms-stat-n">JADT</span>
+    <span class="ms-stat-l">Scientific<br>Committee</span>
+  </div>
+  <div class="ms-stat">
+    <span class="ms-stat-n">2</span>
+    <span class="ms-stat-l">PRIN 2022<br>Projects</span>
+  </div>
+</div>
+
+<!-- ====================================================
+     BIO
+     ==================================================== -->
+<div class="ms-bio">
+```
+
+## About
+
+I am a **Tenure-Track Assistant Professor (RTDB)** in *Statistics for Social Science* at the **University of Naples Federico II**, Department of Economics and Statistics. I hold a **Ph.D. in Statistics** (2015) from the same university, with a thesis on document clustering validation techniques.
+
+My research activity focuses on **quantitative methods for text and data analysis**, with a particular emphasis on computational approaches to social science and bibliometrics. I am part of the development team of [**bibliometrix**](https://www.bibliometrix.org), an open-source R package for quantitative research in scientometrics and bibliometrics, and a member of the academic spin-off [**K-Synth**](https://www.k-synth.com).
+
+Since **2024**, I have been a permanent member of the **Scientific Committee** of the *International Conference on Statistical Analysis of Textual Data (JADT)*. I am currently involved in two **PRIN 2022** national research projects focused on the evaluation of Academic Health Science Centres.
+
+### Research Interests
+
+- **Text Mining** and **Statistical Analysis of Textual Data**
+- **Social Media** and **Sentiment Analysis**
+- **Science Mapping** and **Bibliometrics**
+- **Data Mining** and **Document Clustering**
+
+### Education
+
+- **Ph.D. in Statistics** (XXVII Cycle), University of Naples Federico II, 2015 — *"Validation techniques for document clustering"* (Supervisor: Prof. Simona Balbi)
+- **Degree in Statistics** (110/110 cum laude), University of Naples Federico II, 2010 — *"Information Retrieval techniques for document indexing"*
+
+```{=html}
+</div>
+```

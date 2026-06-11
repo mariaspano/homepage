@@ -474,12 +474,12 @@ nav.navbar,
   border: 1px solid #BFDBFE;
 }
 
-/* Publication list */
-.page-publications ul {
+/* Publication list — scoped to #quarto-content to avoid targeting navbar li.nav-item */
+.page-publications #quarto-content ul {
   padding-left: 0;
 }
 
-.page-publications ul > li {
+.page-publications #quarto-content ul > li {
   list-style: none;
   padding: 0.9rem 1.1rem 0.9rem 1.2rem;
   background: var(--c-bg);
@@ -493,16 +493,14 @@ nav.navbar,
   transition: border-left-color var(--ease), box-shadow var(--ease), transform var(--ease);
 }
 
-.page-publications ul > li:hover {
+.page-publications #quarto-content ul > li:hover {
   border-left-color: var(--c-gold);
   box-shadow: var(--sh-md);
   transform: translateX(4px);
 }
 
-.page-publications ul { padding-left: 0; }
-
 /* DOI links */
-.page-publications ul > li a {
+.page-publications #quarto-content ul > li a {
   display: inline-block;
   font-size: 0.76rem;
   font-weight: 600;
@@ -515,24 +513,24 @@ nav.navbar,
   transition: background var(--ease), color var(--ease), border-color var(--ease);
 }
 
-.page-publications ul > li a:hover {
+.page-publications #quarto-content ul > li a:hover {
   background: var(--c-gold) !important;
   color: var(--c-dark) !important;
   border-color: var(--c-gold);
   text-decoration: none !important;
 }
 
-/* Section heading override for publications TOC */
+/* Section heading override for publications */
 .page-publications h2 {
   font-size: 1.5rem;
 }
 
 /* =============================================================
-   TEACHING
+   TEACHING — scoped to #quarto-content
    ============================================================= */
-.page-teaching ul { padding-left: 0; }
+.page-teaching #quarto-content ul { padding-left: 0; }
 
-.page-teaching ul > li {
+.page-teaching #quarto-content ul > li {
   list-style: none;
   padding: 0.75rem 1rem;
   background: var(--c-bg);
@@ -544,17 +542,17 @@ nav.navbar,
   transition: border-left-color var(--ease), background var(--ease);
 }
 
-.page-teaching ul > li:hover {
+.page-teaching #quarto-content ul > li:hover {
   border-left-color: var(--c-gold);
   background: var(--c-bg-2);
 }
 
-.page-teaching ul > li > ul {
+.page-teaching #quarto-content ul > li > ul {
   padding-left: 1rem;
   margin-top: 0.5rem;
 }
 
-.page-teaching ul > li > ul > li {
+.page-teaching #quarto-content ul > li > ul > li {
   background: none;
   border: none;
   border-left: 2px solid var(--c-border);
@@ -565,18 +563,18 @@ nav.navbar,
   margin-bottom: 0.3rem;
 }
 
-.page-teaching ul > li > ul > li:hover {
+.page-teaching #quarto-content ul > li > ul > li:hover {
   border-left-color: var(--c-gold);
   color: var(--c-text);
   background: none;
 }
 
 /* =============================================================
-   CONTACTS
+   CONTACTS — scoped to #quarto-content
    ============================================================= */
-.page-contacts ul { padding-left: 0; }
+.page-contacts #quarto-content ul { padding-left: 0; }
 
-.page-contacts ul > li {
+.page-contacts #quarto-content ul > li {
   list-style: none;
   padding: 0.8rem 1.2rem;
   background: var(--c-bg);
@@ -588,7 +586,7 @@ nav.navbar,
   transition: border-color var(--ease), box-shadow var(--ease);
 }
 
-.page-contacts ul > li:hover {
+.page-contacts #quarto-content ul > li:hover {
   border-color: var(--c-gold);
   box-shadow: var(--sh-md);
 }

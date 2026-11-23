@@ -13,7 +13,7 @@ format:
 
   <div class="pj-card c-violet reveal">
     <div class="pj-head">
-      <div class="ic"><i class="bi bi-diagram-3-fill"></i></div>
+      <div class="ic logo"><img src="images/logos/bibliometrix.png" alt="bibliometrix logo"></div>
       <div><span class="k">R package · Shiny app</span><h3>bibliometrix &amp; Biblioshiny</h3></div>
     </div>
     <div class="pj-body">
@@ -26,9 +26,8 @@ format:
   </div>
 
   <div class="pj-card c-teal reveal">
-    <img class="pj-img" src="images/pub4.jpeg" alt="Presenting TALL">
     <div class="pj-head">
-      <div class="ic"><i class="bi bi-chat-square-text-fill"></i></div>
+      <div class="ic logo"><img src="images/logos/tall-hex.jpg" alt="TALL logo"></div>
       <div><span class="k">R · Shiny app</span><h3>TALL · Text Analysis for All</h3></div>
     </div>
     <div class="pj-body">
@@ -41,7 +40,7 @@ format:
 
   <div class="pj-card c-pink reveal">
     <div class="pj-head">
-      <div class="ic"><i class="bi bi-bounding-box-circles"></i></div>
+      <div class="ic logo"><img src="images/logos/themescoper.svg" alt="themescopeR logo"></div>
       <div><span class="k">R package · 2026</span><h3>themescopeR</h3></div>
     </div>
     <div class="pj-body">

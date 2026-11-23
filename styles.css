@@ -898,3 +898,20 @@ a.ct-card:hover { transform: translateY(-4px); box-shadow: var(--sh-md); }
 }
 .ms-stat-l small { font-weight: 500; font-size: .76rem; opacity: .8; }
 .ms-badge-new { font-size: .7rem; font-weight: 800; text-transform: uppercase; background: var(--sun); color: var(--c-ink); padding: .1rem .5rem; border-radius: 999px; margin-left: .3rem; }
+
+/* package logos */
+.ms-feature-grid { grid-template-columns: repeat(4, 1fr); }
+.ms-feature-logo {
+  height: 170px;
+  display: grid; place-items: center;
+  background: #fff;
+  padding: 1rem;
+}
+.ms-feature-logo img { height: 130px; width: auto; max-width: 80%; aspect-ratio: auto; object-fit: contain; }
+.ms-feature-logo.ph { background: var(--fg); color: #fff; font-size: 3.4rem; }
+.pj-head .ic.logo { background: #fff; padding: 4px; flex-basis: 72px; height: 72px; box-shadow: var(--sh-sm); }
+.pj-head .ic.logo { overflow: hidden; }
+.pj-head .ic.logo img { width: 64px; height: 64px; object-fit: contain; }
+.ms-hero-photo img { object-position: 50% 30%; }
+@media (max-width: 991px) { .ms-feature-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 640px) { .ms-feature-grid { grid-template-columns: 1fr; } }

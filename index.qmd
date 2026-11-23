@@ -37,8 +37,7 @@ format:
       </div>
     </div>
     <div class="ms-hero-photo">
-      <img src="profile.jpg" alt="Portrait of Maria Spano">
-      <div class="ms-hero-badge"><i class="bi bi-award-fill"></i><span>JADT<br>Scientific Committee</span></div>
+      <img src="images/2026/portrait-home.jpg" alt="Maria Spano speaking at JADT 2026">
     </div>
   </div>
 </section>
@@ -133,27 +132,35 @@ format:
     <p class="ms-lead">Open-source tools and training that bring text analysis and science mapping to everyone.</p>
     <div class="ms-feature-grid">
       <a class="ms-feature c-violet reveal" href="https://www.bibliometrix.org" target="_blank">
-        <div class="ms-feature-ph"><i class="bi bi-diagram-3"></i></div>
+        <div class="ms-feature-logo"><img src="images/logos/bibliometrix.png" alt="bibliometrix logo"></div>
         <div class="ms-feature-body">
           <span class="k">R package</span>
           <h3>bibliometrix</h3>
-          <p>Open-source R package and Biblioshiny app for quantitative research in scientometrics and bibliometrics.</p>
+          <p>R package and Biblioshiny app for science mapping and bibliometric analysis.</p>
         </div>
       </a>
       <a class="ms-feature c-teal reveal" href="https://cran.r-project.org/package=tall" target="_blank">
-        <img src="images/pub4.jpeg" alt="Presenting TALL at a conference">
+        <div class="ms-feature-logo"><img src="images/logos/tall-hex.jpg" alt="TALL logo"></div>
         <div class="ms-feature-body">
           <span class="k">R / Shiny app</span>
-          <h3>TALL · Text Analysis for All</h3>
-          <p>An interactive app for exploring, modelling and visualising textual data, no coding required.</p>
+          <h3>TALL</h3>
+          <p>Text Analysis for All: explore, model and visualise textual data without coding.</p>
+        </div>
+      </a>
+      <a class="ms-feature c-sky reveal" href="https://doi.org/10.32614/CRAN.package.themescopeR" target="_blank">
+        <div class="ms-feature-logo"><img src="images/logos/themescoper.svg" alt="themescopeR logo"></div>
+        <div class="ms-feature-body">
+          <span class="k">R package</span>
+          <h3>themescopeR</h3>
+          <p>Social representation analysis via semantic network mapping.</p>
         </div>
       </a>
       <a class="ms-feature c-coral reveal" href="https://www.bibliometrix.org/sssm" target="_blank">
-        <div class="ms-feature-ph"><i class="bi bi-sun"></i></div>
+        <div class="ms-feature-logo ph"><i class="bi bi-sun"></i></div>
         <div class="ms-feature-body">
           <span class="k">Training</span>
           <h3>Summer School in Science Mapping</h3>
-          <p>Coordinator and lecturer of the Naples summer school on systematic literature review with bibliometrix.</p>
+          <p>Coordinator and lecturer of the Naples summer school, now in its fourth edition.</p>
         </div>
       </a>
     </div>

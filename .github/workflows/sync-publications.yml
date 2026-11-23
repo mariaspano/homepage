@@ -1,0 +1,48 @@
+# Every Monday: look for new works on ORCID and open a pull request to review them.
+name: Sync publications from ORCID
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+
+      - name: Look for new ORCID works
+        run: python scripts/sync_orcid.py
+
+      - name: Read report
+        id: report
+        run: |
+          if [ -f sync-report.md ]; then
+            {
+              echo "body<<EOF"
+              cat sync-report.md
+              echo "EOF"
+            } >> "$GITHUB_OUTPUT"
+            rm sync-report.md
+          fi
+
+      - name: Open pull request
+        if: steps.report.outputs.body != ''
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: auto/orcid-sync
+          delete-branch: true
+          commit-message: "Add new publications from ORCID"
+          title: "New publications from ORCID"
+          body: ${{ steps.report.outputs.body }}
+          labels: publications

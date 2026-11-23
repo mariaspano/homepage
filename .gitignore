@@ -6,3 +6,11 @@
 images/nuove foto/
 .DS_Store
 **/.DS_Store
+
+# build output and generated fragments (built by GitHub Actions)
+/_site/
+/docs/
+/_publications.md
+/_home-stats.md
+__pycache__/
+/sync-report.md

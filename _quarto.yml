@@ -1,6 +1,7 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: _site
+  pre-render: scripts/build_publications.py
   resources:
     - lightbox.min.css
     - lightbox-plus-jquery.min.js

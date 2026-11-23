@@ -43,16 +43,11 @@ format:
   </div>
 </section>
 
-<!-- ============================ STATS ============================ -->
-<div class="ms-wrap">
-  <div class="ms-stats">
-    <div class="ms-stat" style="--accent: var(--coral)"><span class="ms-stat-n">80+</span><span class="ms-stat-l">Scientific publications<br><small>33 journal articles</small></span></div>
-    <div class="ms-stat" style="--accent: var(--teal)"><span class="ms-stat-n">1,780+</span><span class="ms-stat-l">Citations<br><small>Google Scholar, Nov 2026</small></span></div>
-    <div class="ms-stat" style="--accent: var(--violet)"><span class="ms-stat-n">3</span><span class="ms-stat-l">Open-source R packages<br>(bibliometrix · TALL · themescopeR)</span></div>
-    <div class="ms-stat" style="--accent: #E89A00"><span class="ms-stat-n">15</span><span class="ms-stat-l">h-index<br><small>Google Scholar, Nov 2026</small></span></div>
-  </div>
-</div>
+```
 
+{{< include _home-stats.md >}}
+
+```{=html}
 <!-- ============================ ABOUT ============================ -->
 <section class="ms-section">
   <div class="ms-wrap ms-bio-grid">

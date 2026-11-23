@@ -1,0 +1,7 @@
+# Citation metrics shown on the home page.
+# Update with:  python3 scripts/update_scholar_metrics.py   (run from your own computer)
+source: Google Scholar
+updated: 2026-11-23
+citations: 1783
+h_index: 15
+i10_index: 17

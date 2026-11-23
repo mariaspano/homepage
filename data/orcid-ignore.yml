@@ -1,0 +1,23 @@
+# ORCID works deliberately NOT shown on the website (duplicates, variants, other).
+# Remove a line to let the sync propose that work again.
+ignore:
+- put_code: 157774613
+  title: EDITORIAL
+  year: 2023
+- put_code: 136166600
+  title: Automatic identification of wines via supervised text classification
+  year: 2019
+- put_code: 136166612
+  title: 'SCIENCE MAPPING VIA DYNAMIC TOPIC MODELLING: AN ANALYSIS ON 30 YEARS OF SOCIAL INDICATORS RESEARCH'
+  year: 2019
+- put_code: 159730988
+  title: Promoting the quality of relationships and sexuality in patients with gynecological cancer. An observational study
+    suppo
+  year: 2018
+- put_code: 136166609
+  title: 'The Impact of International Accounting Standards Board (IASB)’s Guidelines for Preparing Management Commentary (MC):
+    Evi'
+  year: 2014
+- put_code: 136166580
+  title: Extracting meta-information from management commentary by using Network Analysis tools
+  year: 2012

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -33,16 +36,17 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-57d99212ba358e45be7777db754210b2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5aa540d3a071c3c0495ff51dbe268e79.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,6 +74,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="lightbox.min.css" rel="stylesheet">
+<script src="lightbox-plus-jquery.min.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -99,6 +105,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link active" href="./publications.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Software &amp; Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./teaching.html"> 
@@ -140,11 +150,16 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#working-papers" id="toc-working-papers" class="nav-link active" data-scroll-target="#working-papers">Working Papers</a></li>
   <li><a href="#journal-articles" id="toc-journal-articles" class="nav-link" data-scroll-target="#journal-articles">Journal Articles</a></li>
-  <li><a href="#books" id="toc-books" class="nav-link" data-scroll-target="#books">Books</a></li>
+  <li><a href="#books-edited-volumes" id="toc-books-edited-volumes" class="nav-link" data-scroll-target="#books-edited-volumes">Books &amp; Edited Volumes</a></li>
   <li><a href="#book-chapters" id="toc-book-chapters" class="nav-link" data-scroll-target="#book-chapters">Book Chapters</a></li>
   <li><a href="#conference-proceedings" id="toc-conference-proceedings" class="nav-link" data-scroll-target="#conference-proceedings">Conference Proceedings</a></li>
   <li><a href="#technical-reports-software" id="toc-technical-reports-software" class="nav-link" data-scroll-target="#technical-reports-software">Technical Reports &amp; Software</a></li>
-  <li><a href="#from-conference" id="toc-from-conference" class="nav-link" data-scroll-target="#from-conference">From Conference</a></li>
+  <li><a href="#from-the-conferences" id="toc-from-the-conferences" class="nav-link" data-scroll-target="#from-the-conferences">From the Conferences</a>
+  <ul class="collapse">
+  <li><a href="#jadt-2026-palermo-810-july" id="toc-jadt-2026-palermo-810-july" class="nav-link" data-scroll-target="#jadt-2026-palermo-810-july">JADT 2026 · Palermo, 8–10 July</a></li>
+  <li><a href="#sis-fenstats-2026-rome-2225-june" id="toc-sis-fenstats-2026-rome-2225-june" class="nav-link" data-scroll-target="#sis-fenstats-2026-rome-2225-june">SIS-FENStatS 2026 · Rome, 22–25 June</a></li>
+  <li><a href="#earlier-conferences" id="toc-earlier-conferences" class="nav-link" data-scroll-target="#earlier-conferences">Earlier conferences</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -154,6 +169,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Research</h1>
+<p class="subtitle lead">Journal articles, books, chapters, proceedings and software. Search or filter by type.</p>
 </div>
 
 
@@ -173,21 +189,24 @@ ul.task-list li input[type="checkbox"] {
 <section id="working-papers" class="level2">
 <h2 class="anchored" data-anchor-id="working-papers">Working Papers</h2>
 <ul>
-<li><p>Alaimo, S. L., Aria, M., D’Aniello, L., &amp; Spano, M. (2026). <em>Scientific knowledge and healthcare quality: A multidimensional assessment of Italian Academic Health Science Centres</em>. <strong>Applied Stochastic Models in Business and Industry</strong>. [forthcoming]</p></li>
-<li><p>Aria, M., D’Aniello, L., Misuraca, M., &amp; Spano, M. (2026). <em>Rethinking thematic evolution in science mapping: An integrated framework for longitudinal analysis</em>. arXiv:2603.06436. <a href="https://arxiv.org/abs/2603.06436">arXiv</a></p></li>
-<li><p>Aria, M., D’Aniello, L., &amp; Spano, M. (2026). <em>A Multi-Phase Reference Matching Algorithm for Bibliometric Analysis: Design, Implementation, and Evaluation</em>. [in preparation]</p></li>
+<li><p>Aria, M., Cuccurullo, C., &amp; Spano, M. (2026). <em>Multiplex coupling: Connecting the intellectual base and the topics of a research field</em>. arXiv:2610.21858. <a href="https://arxiv.org/abs/2610.21858">arXiv</a></p></li>
+<li><p>Alaimo, S. L., Aria, M., D’Aniello, L., &amp; Spano, M. (2026). <em>Scientific knowledge and healthcare quality: A multidimensional assessment of Italian Academic Health Science Centres</em>. <strong>Statistical Papers</strong>. [under review]</p></li>
 </ul>
 </section>
 <section id="journal-articles" class="level2">
 <h2 class="anchored" data-anchor-id="journal-articles">Journal Articles</h2>
 <ul>
-<li><p>Aria, M., Cuccurullo, C., D’Aniello, L., &amp; Spano, M. (2026). <em>Biblioshiny and the SAAS Workflow: An integrated framework for transparent and reproducible science mapping</em>. <strong>Journal of Informetrics</strong>, 20(3), 101837.</p></li>
-<li><p>Aria, M., Spano, M., D’Aniello, L., Cuccurullo, C., &amp; Misuraca, M. (2026). <em>TALL: Text Analysis for All – an interactive R-Shiny application for exploring, modeling, and visualizing textual data</em>. <strong>SoftwareX</strong> (Elsevier), 34, 102590.</p></li>
-<li><p>Misuraca, M., Spano, M., &amp; D’Aniello, L. (2026). <em>ThemeScope: A quantitative thematic analysis for depicting social representations in digital arenas</em>. <strong>Journal of Information Science</strong>, 1–25.</p></li>
-<li><p>Aria, M., Cuccurullo, C., D’Aniello, L., &amp; Spano, M. (2026). <em>SciK-Health: An open-data dashboard for the multidimensional evaluation of Italian academic health science centers</em>. <strong>Quality &amp; Quantity</strong>, 1–30.</p></li>
-<li><p>Aria, M., Costanzo, D., Misuraca, M., &amp; Spano, M. (2026). <em>Assessing tourism sustainability through stochastic multi-criteria acceptability analysis: Insights from the Italian regional context</em>. <strong>Management Decision</strong>, 1–18. <a href="https://doi.org/10.1108/MD-09-2025-2815">DOI</a></p></li>
-<li><p>Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., &amp; Spano, M. (2026). <em>Sintetizzare la conoscenza: Un approccio integrato per l’estrazione di contenuti rilevanti nella letteratura scientifica</em>. <strong>Tesi e Temi</strong>, 1, 57–75.</p></li>
-<li><p>Cobo, M. J., De Mascellis, A. M., Misuraca, M., &amp; Spano, M. (2026). <em>Automatic temporal framing detection for news analysis</em>. <strong>Quality &amp; Quantity</strong>, 60(2), 5063–5085. <a href="https://doi.org/10.1007/s11135-025-02492-1">DOI</a></p></li>
+<li><p>Aria, M., D’Aniello, L., Misuraca, M., &amp; Spano, M. (2026). <em>Rethinking thematic evolution in science mapping: An integrated framework for longitudinal analysis</em>. <strong>Journal of Informetrics</strong>, 20(4), 101877. <a href="https://doi.org/10.1016/j.joi.2026.101877">DOI</a></p></li>
+<li><p>Misuraca, M., Spano, M., &amp; D’Aniello, L. (2026). <em>Energy transition as the core of climate discourse: Mapping social representations in digital public debate</em>. <strong>Energy Research &amp; Social Science</strong>, 140, 104945. <a href="https://doi.org/10.1016/j.erss.2026.104945">DOI</a></p></li>
+<li><p>Aria, M., Cuccurullo, C., D’Aniello, L., &amp; Spano, M. (2026). <em>Biblioshiny and the SAAS Workflow: An integrated framework for transparent and reproducible science mapping. A demonstration through the replication of a study</em>. <strong>Journal of Informetrics</strong>, 20(3), 101837. <a href="https://doi.org/10.1016/j.joi.2026.101837">DOI</a></p></li>
+<li><p>Aria, M., D’Aniello, L., &amp; Spano, M. (2026). <em>A multi-phase reference matching algorithm for bibliometric analysis: Design, implementation, and evaluation</em>. <strong>Scientometrics</strong>, 131(9), 6693–6728. <a href="https://doi.org/10.1007/s11192-026-05763-2">DOI</a></p></li>
+<li><p>Misuraca, M., Spano, M., &amp; D’Aniello, L. (2026). <em>ThemeScope: A quantitative thematic analysis for depicting social representations in digital arenas</em>. <strong>Journal of Information Science</strong>, OnlineFirst, 1–18. <a href="https://doi.org/10.1177/01655515261454276">DOI</a></p></li>
+<li><p>Misuraca, M., D’Aniello, L., &amp; Spano, M. (2026). <em>A computational pipeline for hierarchical evocation analysis of renewable energy in online climate discourse</em>. <strong>Sustainability</strong>, 18(14), 7295. <a href="https://doi.org/10.3390/su18147295">DOI</a></p></li>
+<li><p>Aria, M., Cuccurullo, C., D’Aniello, L., &amp; Spano, M. (2026). <em>SciK-Health: An open-data dashboard for the multidimensional evaluation of Italian academic health science centers</em>. <strong>Quality &amp; Quantity</strong>, 60(5), 16437–16466. <a href="https://doi.org/10.1007/s11135-026-02827-6">DOI</a></p></li>
+<li><p>Aria, M., Costanzo, D., Misuraca, M., &amp; Spano, M. (2026). <em>Assessing tourism sustainability through Stochastic Multicriteria Acceptability Analysis: Insights from the Italian regional context</em>. <strong>Management Decision</strong>. <a href="https://doi.org/10.1108/MD-09-2025-2815">DOI</a></p></li>
+<li><p>Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., &amp; Spano, M. (2026). <em>Sintetizzare la conoscenza: Un approccio integrato per l’estrazione di contenuti rilevanti nella letteratura scientifica</em>. <strong>Tesi e Temi</strong>, 1, Giapeto Editore, Napoli, 57–75.</p></li>
+<li><p>Aria, M., Spano, M., D’Aniello, L., Cuccurullo, C., &amp; Misuraca, M. (2026). <em>TALL: Text Analysis for All – an interactive R-Shiny application for exploring, modeling, and visualizing textual data</em>. <strong>SoftwareX</strong>, 34, 102590. <a href="https://doi.org/10.1016/j.softx.2026.102590">DOI</a></p></li>
+<li><p>Cobo, M. J., De Mascellis, A. M., Misuraca, M., &amp; Spano, M. (2025). <em>Automatic temporal framing detection for news analysis</em>. <strong>Quality &amp; Quantity</strong>, 60(2), 5063–5085. <a href="https://doi.org/10.1007/s11135-025-02492-1">DOI</a></p></li>
 <li><p>Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., &amp; Spano, M. (2024). <em>Comparative science mapping: a novel conceptual structure analysis with metadata</em>. <strong>Scientometrics</strong>, 129(11), 7055–7081. <a href="https://doi.org/10.1007/s11192-024-05161-6">DOI</a></p></li>
 <li><p>Misuraca, M., Spano, M., &amp; Celardo, L. (2024). <em>E-wom and territorial analyses: the use of opinion mining in tourism</em>. <strong>Turistica – Italian Journal of Tourism</strong>, 33(1), 79–99.</p></li>
 <li><p>Celardo, L., Misuraca, M., &amp; Spano, M. (2024). <em>Geo-referenced sentiment analysis for tourists’ points of interest: the case of Matera European Capital of Culture</em>. <strong>Rivista Italiana di Economia, Demografia e Statistica</strong>, 78(2), 103–114.</p></li>
@@ -212,18 +231,19 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Ginesti, G., Macchioni, R., Sannino, G., &amp; Spano, M. (2013). <em>The Impact of IASB’s Guidelines for Preparing Management Commentary: Evidence from Italian Listed Firms</em>. <strong>Journal of Modern Accounting and Auditing</strong>, 9(3), 305–320.</p></li>
 </ul>
 </section>
-<section id="books" class="level2">
-<h2 class="anchored" data-anchor-id="books">Books</h2>
+<section id="books-edited-volumes" class="level2">
+<h2 class="anchored" data-anchor-id="books-edited-volumes">Books &amp; Edited Volumes</h2>
 <ul>
-<li>Cuccurullo, C., Aria, M., Spano, M., &amp; D’Aniello, L. (2023). <em>Leading Change in Academic Health Science Centers</em>. Zaccaria srl, 1–124.</li>
+<li><p>Cuccurullo, C., Aria, M., Spano, M., &amp; D’Aniello, L. (2023). <em>Leading Change in Academic Health Science Centers</em>. Zaccaria srl, 1–124.</p></li>
+<li><p>Misuraca, M., Scepi, G., &amp; Spano, M. (Eds.) (2022). <em>JADT 2022 – Proceedings of the 16th International Conference on Statistical Analysis of Textual Data</em>. VADISTAT Press / Edizioni Erranti, Napoli, 1–887.</p></li>
 </ul>
 </section>
 <section id="book-chapters" class="level2">
 <h2 class="anchored" data-anchor-id="book-chapters">Book Chapters</h2>
 <ul>
-<li><p>Cozzucoli, L. A., Misuraca, M., &amp; Spano, M. (2026). <em>Evaluating the Impact of Government Orientation on the Adoption of AI in Business: A Causal Inference Study</em>. In F. Greco, A. Fronzetti Colladon, P. A. Gloor (Eds.), <em>Artificial Intelligence and Networks for a Sustainable Future: Connecting Species</em>, Springer, Cham. [in press]</p></li>
+<li><p>Cozzucoli, L. A., Misuraca, M., &amp; Spano, M. (2026). <em>Evaluating the impact of government orientation on the adoption of AI in business: A causal inference study</em>. In F. Greco, A. Fronzetti Colladon, P. A. Gloor (Eds.), <em>Artificial Intelligence and Networks for a Sustainable Future: Connecting Species</em>, Springer, Cham, pp.&nbsp;369–377. <a href="https://doi.org/10.1007/978-3-032-13458-5_20">DOI</a></p></li>
+<li><p>De Mascellis, A. M., Misuraca, M., Scepi, G., &amp; Spano, M. (2026). <em>An automatic framing approach to analyse newspaper and press language</em>. In E. Amaturo, B. Aragona, C. Crocetta, M. G. Grassia, C. N. Lauro, M. Marino (Eds.), <em>Data Science and Social Research III – Epistemology, Methods, Technology, Applications, and Relation to Artificial Intelligence</em>, Springer, Cham, pp.&nbsp;1–12.</p></li>
 <li><p>Spano, M., Misuraca, M., &amp; Celardo, L. (2025). <em>From Vectors to Networks: Comparing Conventional and Graph-Based Approaches to Unsupervised Text Categorisation</em>. In A. D’Ambrosio et al.&nbsp;(Eds.), <em>Supervised and Unsupervised Statistical Data Analysis</em>, Springer, Cham, pp.&nbsp;304–315.</p></li>
-<li><p>De Mascellis, A. M., Misuraca, M., Scepi, G., &amp; Spano, M. (2025). <em>An automatic framing approach to analyse newspaper and press language</em>. In XXX (Eds.), <em>Data Science and Social Research IV</em>, Springer, Cham. [in press]</p></li>
 <li><p>Misuraca, M., Scepi, G., &amp; Spano, M. (2023). <em>Network-based dimensionality reduction for textual datasets</em>. In E. Brentari, M. Chiodi, E.-J. C. Wit (Eds.), <em>Models for Data Analysis</em>, Springer, Cham, pp.&nbsp;175–190.</p></li>
 <li><p>Misuraca, M., &amp; Spano, M. (2020). <em>Unsupervised analytic strategies to explore large document collections</em>. In D. F. Iezzi, D. Mayaffre, M. Misuraca (Eds.), <em>Text Analytics. Advances and Challenges</em>, Springer, Heidelberg, pp.&nbsp;17–28.</p></li>
 <li><p>Stawinoga, A., Spano, M., &amp; Triunfo, N. (2016). <em>Extracting meta-information by using Network Analysis tools</em>. In G. Alleva, A. Giommi (Eds.), <em>Studies in Theoretical and Applied Statistics</em>, Springer, pp.&nbsp;101–109. <a href="https://doi.org/10.1007/978-3-319-27274-0_9">DOI</a></p></li>
@@ -232,16 +252,19 @@ ul.task-list li input[type="checkbox"] {
 <section id="conference-proceedings" class="level2">
 <h2 class="anchored" data-anchor-id="conference-proceedings">Conference Proceedings</h2>
 <ul>
+<li><p>Misuraca, M., Spano, M., &amp; D’Aniello, L. (2026). <em>Constructing climate change discourse in the digital public sphere: A computational analysis of social representations</em>. In A. Plaia, M. Sciandra, A. Albano (Eds.), <em>JADT2026 – 18th International Conference on Statistical Analysis of Textual Data</em>, Vol. I, Palermo University Press, pp.&nbsp;253–262.</p></li>
+<li><p>Aria, M., Cobo, M. J., D’Aniello, L., Misuraca, M., &amp; Spano, M. (2026). <em>Temporal dynamics of AI news frames: A multilayer network approach</em>. In A. Plaia, M. Sciandra, A. Albano (Eds.), <em>JADT2026 – 18th International Conference on Statistical Analysis of Textual Data</em>, Vol. I, Palermo University Press, pp.&nbsp;263–272.</p></li>
+<li><p>Aria, M., Cobo, M. J., D’Aniello, L., Misuraca, M., &amp; Spano, M. (2026). <em>A multilayer network approach for longitudinal frame detection in newspaper and press language</em>. In F. Martella, S. Arima, M. F. Marino, C. Mollica (Eds.), <em>Statistical Science: From Theory to Applied Research II – SIS-FENStatS 2026</em>, Springer, Cham, pp.&nbsp;101–107. <a href="https://doi.org/10.1007/978-3-032-30877-1_17">DOI</a></p></li>
 <li><p>Aria, M., Cuccurullo, C., D’Aniello, L., Spano, M., &amp; Alabiso, C. (2025). <em>From data collection to knowledge in health: Turning scientific production into practical decision-making tools</em>. In G. Boccuzzo et al.&nbsp;(Eds.), <em>IES 2025 – Statistics and Data Science for Evaluation and Quality</em>, Cleup, Padova. ISBN: 978-88-5495-849-4.</p></li>
 <li><p>Gnasso, A., Sacco, D., Celardo, L., Smecca, M. A., Alabiso, C., &amp; Spano, M. (2025). <em>Research excellence and patient perception: investigating the impact of AHSCs’ scientific output</em>. In G. Boccuzzo et al.&nbsp;(Eds.), <em>IES 2025</em>, Cleup, Padova. ISBN: 978-88-5495-849-4.</p></li>
-<li><p>Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., &amp; Spano, M. (2025). <em>Keyword-enhanced summarization from scientific literature through an integrated approach</em>. In L. S. Alaimo et al.&nbsp;(Eds.), <em>ASA 2024 – Statistics, Technology and Data Science for Economic and Social Development</em>, Firenze University Press, pp.&nbsp;37–43. <a href="https://doi.org/10.26398/asaproc.0076">DOI</a></p></li>
+<li><p>Aria, M., Cuccurullo, C., D’Aniello, L., &amp; Spano, M. (2025). <em>Keyword-enhanced summarization from scientific literature through an integrated approach</em>. In L. S. Alaimo, F. Crescenzi, L. Fabbris, F. Maggino, M. Vichi (Eds.), <em>Measuring and Interpreting World Changes with Statistics, Data Science and AI (ASA 2024)</em>, Firenze University Press, pp.&nbsp;37–43. <a href="https://doi.org/10.26398/asaproc.0076">DOI</a></p></li>
 <li><p>Belfiore, A., Spano, M., Cuccurullo, C., &amp; Giordano, W. (2024). <em>Beyond Text: Unveiling Corporate Communication Strategies Through Textual Analysis of CEO Letters</em>. In A. Dister, D. Longrée (Eds.), <em>JADT24</em>, Presses Universitaires De Louvain, Vol. 1, pp.&nbsp;69–78. ISBN: 978-2-39061-471-5.</p></li>
 <li><p>Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., &amp; Spano, M. (2024). <em>Breaking barriers with TALL: a text analysis Shiny app for all</em>. In A. Dister, D. Longrée (Eds.), <em>JADT24</em>, Presses Universitaires De Louvain, Vol. 1, pp.&nbsp;39–48. ISBN: 978-2-39061-471-5.</p></li>
 <li><p>Celardo, L., Misuraca, M., &amp; Spano, M. (2024). <em>See Naples, then dye: Spatial Categorisation of Tourist Attractions with Reviews’ Sentiment Scores</em>. In A. Dister, D. Longrée (Eds.), <em>JADT24</em>, Presses Universitaires De Louvain, Vol. 1, pp.&nbsp;189–198. ISBN: 978-2-39061-471-5.</p></li>
 <li><p>D’Aniello, L., Aria, M., Cuccurullo, C., Misuraca, M., &amp; Spano, M. (2024). <em>Extracting knowledge from scientific literature with an integrated text summarization approach</em>. In A. Dister, D. Longrée (Eds.), <em>JADT24</em>, Presses Universitaires De Louvain, Vol. 1, pp.&nbsp;239–248. ISBN: 978-2-39061-471-5.</p></li>
-<li><p>Costanzo, G. D., Dattilo, B., Di Torrice, M., Misuraca, M., &amp; Spano, M. (2024). <em>Measuring Sustainability in Tourism via a Multi-Criteria Decision Making approach</em>. In A. Pollice, P. Mariani (Eds.), <em>SIS 2024</em>, Springer Nature, pp.&nbsp;513–518.</p></li>
-<li><p>Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., &amp; Spano, M. (2024). <em>TALL: A new Shiny app for Text Analysis</em>. In A. Pollice, P. Mariani (Eds.), <em>SIS 2024</em>, Springer Nature, pp.&nbsp;64–70.</p></li>
-<li><p>Celardo, L., Misuraca, M., &amp; Spano, M. (2024). <em>Spatial sentiment analysis of tourist points of interest</em>. In <em>AIQUAV 2023</em>, UniBa, pp.&nbsp;1–6.</p></li>
+<li><p>Costanzo, G. D., Dattilo, B., Di Torrice, M., Misuraca, M., &amp; Spano, M. (2025). <em>Measuring sustainability in tourism via a multi-criteria decision making approach</em>. In A. Pollice, P. Mariani (Eds.), <em>Methodological and Applied Statistics and Demography III (SIS 2024)</em>, Springer Nature, pp.&nbsp;513–518. <a href="https://doi.org/10.1007/978-3-031-64431-3_85">DOI</a></p></li>
+<li><p>Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., &amp; Spano, M. (2025). <em>TALL: A new Shiny app for Text Analysis</em>. In A. Pollice, P. Mariani (Eds.), <em>Methodological and Applied Statistics and Demography III (SIS 2024)</em>, Springer Nature, pp.&nbsp;64–70. <a href="https://doi.org/10.1007/978-3-031-64431-3_11">DOI</a></p></li>
+<li><p>Celardo, L., Misuraca, M., &amp; Spano, M. (2024). <em>Spatial sentiment analysis of tourist points of interest</em>. In M. Antonicelli et al.&nbsp;(Eds.), <em>Quality of Life: Challenges and Opportunities in the Crossroads of the Mediterranean (AIQUAV 2023)</em>, Università di Bari Aldo Moro, pp.&nbsp;82–92.</p></li>
 <li><p>Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., &amp; Spano, M. (2023). <em>TAll: a new Shiny app of Text Analysis for All</em>. In F. Boschetti et al.&nbsp;(Eds.), <em>CLiC-it 2023</em>, CEUR Workshop Proceedings, Vol. 3596, pp.&nbsp;1–4.</p></li>
 <li><p>Celardo, L., Misuraca, M., &amp; Spano, M. (2023). <em>Georeferencing sentiment scores to map and explore tourist points of interest</em>. In R. Martínez-Torres, S. Toral (Eds.), <em>CARMA 2023</em>, Editorial UPV, pp.&nbsp;115–122.</p></li>
 <li><p>Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., &amp; Spano, M. (2022). <em>Text Summarization of a scientific document: a comparison of extractive unsupervised methods</em>. In M. Misuraca, G. Scepi, M. Spano (Eds.), <em>JADT2022</em>, VADISTAT Press, Napoli, pp.&nbsp;67–73.</p></li>
@@ -270,45 +293,126 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="technical-reports-software">Technical Reports &amp; Software</h2>
 <ul>
 <li><p>Misuraca, M., Forciniti, A., Scepi, G., &amp; Spano, M. (2020). <em>Sentiment Analysis for Education with R: packages, methods and practical applications</em>. arXiv:2005.12840. <a href="https://arxiv.org/abs/2005.12840">arXiv</a></p></li>
+<li><p>Hudec, M., Balbi, S., Juriova, J., Spano, M., Stawinoga, A., &amp; Triunfo, N. (2012). <em>Report on principles of fuzzy methodology and tools developed for use in data collection (Soft computing and text mining tools for Official Statistics)</em>. BLUE-ETS Project, Deliverable 5.1.</p></li>
+<li><p>D’Aniello, L., Misuraca, M., &amp; Spano, M. (2026). <strong>themescopeR: Social Representation Analysis via Semantic Network Mapping</strong> — R package. CRAN. <a href="https://doi.org/10.32614/CRAN.package.themescopeR">DOI</a></p></li>
 <li><p>Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., &amp; Spano, M. (2023). <strong>TALL: Text Analysis for All</strong> — R/Shiny application. CRAN. <a href="https://cran.r-project.org/web/packages/tall/index.html">cran.r-project.org/package=tall</a></p></li>
 </ul>
 </section>
-<section id="from-conference" class="level2">
-<h2 class="anchored" data-anchor-id="from-conference">From Conference</h2>
-<div class="row">
-<div class="col-md-7">
-<p>I regularly participate in national and international conferences on <strong>text mining</strong>, <strong>data science</strong>, and <strong>statistical analysis of textual data</strong>. Since 2024 I am a permanent member of the Scientific Committee of JADT. In 2022, I co-chaired the 16th JADT International Conference held in Naples.</p>
+<section id="from-the-conferences" class="level2">
+<h2 class="anchored" data-anchor-id="from-the-conferences">From the Conferences</h2>
+<p>I regularly present at national and international conferences on <strong>text mining</strong>, <strong>data science</strong> and <strong>statistical analysis of textual data</strong>. Since 2024 I have been a permanent member of the Scientific Committee of JADT.</p>
+<section id="jadt-2026-palermo-810-july" class="level3">
+<h3 class="anchored" data-anchor-id="jadt-2026-palermo-810-july">JADT 2026 · Palermo, 8–10 July</h3>
+<div class="conf-grid">
+<p><a href="images/2026/jadt26-talk1.jpg" data-lightbox="jadt26" data-title="JADT 2026 · presenting our work"><img src="images/2026/jadt26-talk1.jpg" alt="JADT 2026 · presenting our work" loading="lazy"><span class="cap">JADT 2026 · presenting our work</span></a> <a href="images/2026/jadt26-group.jpg" data-lightbox="jadt26" data-title="JADT 2026 · with co-authors and colleagues"><img src="images/2026/jadt26-group.jpg" alt="JADT 2026 · with co-authors and colleagues" loading="lazy"><span class="cap">JADT 2026 · with co-authors and colleagues</span></a> <a href="images/2026/jadt26-talk2.jpg" data-lightbox="jadt26" data-title="JADT 2026 · discussion"><img src="images/2026/jadt26-talk2.jpg" alt="JADT 2026 · discussion" loading="lazy"><span class="cap">JADT 2026 · discussion</span></a> <a href="images/2026/jadt26-palermo.jpg" data-lightbox="jadt26" data-title="JADT 2026 · Palermo"><img src="images/2026/jadt26-palermo.jpg" alt="JADT 2026 · Palermo" loading="lazy"><span class="cap">JADT 2026 · Palermo</span></a> <a href="images/2026/jadt26-dinner.jpg" data-lightbox="jadt26" data-title="JADT 2026 · social dinner"><img src="images/2026/jadt26-dinner.jpg" alt="JADT 2026 · social dinner" loading="lazy"><span class="cap">JADT 2026 · social dinner</span></a></p>
 </div>
-<div class="col-md-5">
-<div class="gallery-grid">
-<a href="images/pub3.jpg" data-lightbox="conference"> <img src="images/pub3.jpg" alt="Teaching at University of Padova">
-<p style="font-size: 0.78rem; text-align: center; margin-top: 0.3rem; color: #64748B;">
-Teaching at University of Padova
-</p>
-</a><p><a href="images/pub3.jpg" data-lightbox="conference"></a></p>
-<a href="images/pub2.jpeg" data-lightbox="conference"> <img src="images/pub2.jpeg" alt="TALL session">
-<p style="font-size: 0.78rem; text-align: center; margin-top: 0.3rem; color: #64748B;">
-TALL session
-</p>
-</a><p><a href="images/pub2.jpeg" data-lightbox="conference"></a></p>
-<a href="images/pub4.jpeg" data-lightbox="conference"> <img src="images/pub4.jpeg" alt="Data Science and Social Research">
-<p style="font-size: 0.78rem; text-align: center; margin-top: 0.3rem; color: #64748B;">
-Data Science and Social Research Conference
-</p>
-</a><p><a href="images/pub4.jpeg" data-lightbox="conference"></a></p>
-<a href="images/publ.jpeg" data-lightbox="conference"> <img src="images/publ.jpeg" alt="JADT Brussels">
-<p style="font-size: 0.78rem; text-align: center; margin-top: 0.3rem; color: #64748B;">
-JADT 2024 – Université Saint-Louis Bruxelles
-</p>
-</a><p><a href="images/publ.jpeg" data-lightbox="conference"></a></p>
+</section>
+<section id="sis-fenstats-2026-rome-2225-june" class="level3">
+<h3 class="anchored" data-anchor-id="sis-fenstats-2026-rome-2225-june">SIS-FENStatS 2026 · Rome, 22–25 June</h3>
+<div class="conf-grid">
+<p><a href="images/2026/sis26-talk.jpg" data-lightbox="sis26" data-title="SIS-FENStatS 2026 · presenting our work"><img src="images/2026/sis26-talk.jpg" alt="SIS-FENStatS 2026 · presenting our work" loading="lazy"><span class="cap">SIS-FENStatS 2026 · presenting our work</span></a> <a href="images/2026/sis26-badge.jpg" data-lightbox="sis26" data-title="SIS-FENStatS 2026 · Sapienza, Rome"><img src="images/2026/sis26-badge.jpg" alt="SIS-FENStatS 2026 · Sapienza, Rome" loading="lazy"><span class="cap">SIS-FENStatS 2026 · Sapienza, Rome</span></a> <a href="images/2026/sis26-colleagues.jpg" data-lightbox="sis26" data-title="SIS-FENStatS 2026"><img src="images/2026/sis26-colleagues.jpg" alt="SIS-FENStatS 2026" loading="lazy"><span class="cap">SIS-FENStatS 2026</span></a> <a href="images/2026/sis26-rome.jpg" data-lightbox="sis26" data-title="SIS-FENStatS 2026 · Rome"><img src="images/2026/sis26-rome.jpg" alt="SIS-FENStatS 2026 · Rome" loading="lazy"><span class="cap">SIS-FENStatS 2026 · Rome</span></a></p>
 </div>
-</div>
+</section>
+<section id="earlier-conferences" class="level3">
+<h3 class="anchored" data-anchor-id="earlier-conferences">Earlier conferences</h3>
+<div class="conf-grid">
+<p><a href="images/publ.jpeg" data-lightbox="conf" data-title="JADT 2024 · Université Saint-Louis Bruxelles"><img src="images/publ.jpeg" alt="JADT 2024 · Université Saint-Louis Bruxelles" loading="lazy"><span class="cap">JADT 2024 · Université Saint-Louis Bruxelles</span></a> <a href="images/pub4.jpeg" data-lightbox="conf" data-title="DSSR 2024 · presenting TALL"><img src="images/pub4.jpeg" alt="DSSR 2024 · presenting TALL" loading="lazy"><span class="cap">DSSR 2024 · presenting TALL</span></a> <a href="images/pub2.jpeg" data-lightbox="conf" data-title="TALL session"><img src="images/pub2.jpeg" alt="TALL session" loading="lazy"><span class="cap">TALL session</span></a> <a href="images/pub3.jpg" data-lightbox="conf" data-title="Teaching at University of Padova"><img src="images/pub3.jpg" alt="Teaching at University of Padova" loading="lazy"><span class="cap">Teaching at University of Padova</span></a> <a href="images/2026/conf-stairs.jpg" data-lightbox="conf" data-title="With colleagues"><img src="images/2026/conf-stairs.jpg" alt="With colleagues" loading="lazy"><span class="cap">With colleagues</span></a></p>
 </div>
 
 
 </section>
+</section>
 
 </main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var main = document.querySelector("main.content") || document.body;
+
+  /* ---------- Publications: highlight name, toolbar, search & filters ---------- */
+  if (document.body.classList.contains("page-publications")) {
+    var sections = Array.prototype.slice.call(main.querySelectorAll("section.level2"));
+    var palette = ["coral", "teal", "sun", "violet", "sky", "pink", "lime"];
+    var pubSections = [];
+
+    sections.forEach(function (sec, i) {
+      var items = sec.querySelectorAll(":scope > ul > li");
+      if (!items.length) return;
+      var color = palette[pubSections.length % palette.length];
+      sec.classList.add("pub-section", "accent-" + color);
+      var h = sec.querySelector("h2");
+      var badge = document.createElement("span");
+      badge.className = "pub-count";
+      badge.textContent = items.length;
+      h.appendChild(badge);
+      items.forEach(function (li) {
+        li.innerHTML = li.innerHTML.replace(/Spano,\s*M\./g, '<span class="me">Spano, M.</span>');
+        var m = li.textContent.match(/\((\d{4})\)/);
+        if (m) li.setAttribute("data-year", m[1]);
+      });
+      pubSections.push({ sec: sec, id: sec.id, title: h.firstChild.textContent.trim(), color: color, n: items.length });
+    });
+
+    if (pubSections.length) {
+      var total = pubSections.reduce(function (a, s) { return a + s.n; }, 0);
+      var bar = document.createElement("div");
+      bar.className = "pub-toolbar";
+      var chips = '<button class="pub-chip active" data-target="all">All <b>' + total + '</b></button>';
+      pubSections.forEach(function (s) {
+        chips += '<button class="pub-chip chip-' + s.color + '" data-target="' + s.id + '">' + s.title + ' <b>' + s.n + '</b></button>';
+      });
+      bar.innerHTML =
+        '<div class="pub-search"><i class="bi bi-search"></i>' +
+        '<input type="search" placeholder="Search by title, co-author, journal, year…" aria-label="Search publications"></div>' +
+        '<div class="pub-chips">' + chips + '</div>' +
+        '<p class="pub-empty" hidden>No publications match your search.</p>';
+      pubSections[0].sec.parentNode.insertBefore(bar, pubSections[0].sec);
+
+      var input = bar.querySelector("input");
+      var empty = bar.querySelector(".pub-empty");
+      var current = "all";
+
+      function apply() {
+        var q = input.value.trim().toLowerCase();
+        var shown = 0;
+        pubSections.forEach(function (s) {
+          var visibleInSec = 0;
+          var sectionOn = current === "all" || current === s.id;
+          s.sec.querySelectorAll(":scope > ul > li").forEach(function (li) {
+            var ok = sectionOn && (!q || li.textContent.toLowerCase().indexOf(q) !== -1);
+            li.hidden = !ok;
+            if (ok) visibleInSec++;
+          });
+          s.sec.hidden = visibleInSec === 0;
+          shown += visibleInSec;
+        });
+        empty.hidden = shown !== 0;
+      }
+      input.addEventListener("input", apply);
+      bar.querySelectorAll(".pub-chip").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          bar.querySelectorAll(".pub-chip").forEach(function (b) { b.classList.remove("active"); });
+          btn.classList.add("active");
+          current = btn.getAttribute("data-target");
+          apply();
+        });
+      });
+    }
+  }
+
+  /* ---------- Reveal on scroll ---------- */
+  var reveal = document.querySelectorAll(".reveal");
+  if ("IntersectionObserver" in window && reveal.length) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add("is-visible"); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.12 });
+    reveal.forEach(function (el) { io.observe(el); });
+  } else {
+    reveal.forEach(function (el) { el.classList.add("is-visible"); });
+  }
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -710,6 +814,37 @@ JADT 2024 – Université Saint-Louis Bruxelles
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Maria Spano · University of Naples Federico II</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./contacts.html">
+<p>Contacts</p>
+</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=kh_hGT0AAAAJ">
+      <i class="bi bi-mortarboard-fill" role="img" aria-label="Google Scholar">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/mariaspano">
+      <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 

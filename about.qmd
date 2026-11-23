@@ -1,15 +1,21 @@
 ---
 title: "About Me"
+subtitle: "Family, travels, conferences and the people who make it all worthwhile."
 format:
   html:
     toc: false
     body-classes: "page-about"
 ---
 
-## **My Family**
+## My Family
 
 <div class="gallery-grid">
 
+<a href="images/2026/family-garden.jpg" data-lightbox="family"><img src="images/2026/family-garden.jpg" alt="" loading="lazy"></a>
+<a href="images/2026/family-daughter.jpg" data-lightbox="family"><img src="images/2026/family-daughter.jpg" alt="" loading="lazy"></a>
+<a href="images/2026/family-camper.jpg" data-lightbox="family"><img src="images/2026/family-camper.jpg" alt="" loading="lazy"></a>
+<a href="images/2026/me-scooter.jpg" data-lightbox="family"><img src="images/2026/me-scooter.jpg" alt="" loading="lazy"></a>
+<a href="images/2026/me-bw.jpg" data-lightbox="family"><img src="images/2026/me-bw.jpg" alt="" loading="lazy"></a>
 <a href="images/family.jpeg" data-lightbox="family"><img src="images/family.jpeg" alt="Maria and daughter"></a>
 <a href="images/family2.jpeg" data-lightbox="family"><img src="images/family2.jpeg" alt="On the snow"></a>
 <a href="images/family3.jpeg" data-lightbox="family"><img src="images/family3.jpeg" alt="On the snow"></a>
@@ -29,10 +35,18 @@ format:
 
 ---
 
-## **Experiences from my work, travels, and much more...**
+## Work, travels and much more
 
 <div class="gallery-grid">
 
+<a href="images/2026/travel-boat.jpg" data-lightbox="work"><img src="images/2026/travel-boat.jpg" alt="" loading="lazy"></a>
+<a href="images/2026/jadt26-evening.jpg" data-lightbox="work"><img src="images/2026/jadt26-evening.jpg" alt="" loading="lazy"></a>
+<a href="images/2026/travel-porthole.jpg" data-lightbox="work"><img src="images/2026/travel-porthole.jpg" alt="" loading="lazy"></a>
+<a href="images/2026/travel-moka.jpg" data-lightbox="work"><img src="images/2026/travel-moka.jpg" alt="" loading="lazy"></a>
+<a href="images/2026/travel-alley.jpg" data-lightbox="work"><img src="images/2026/travel-alley.jpg" alt="" loading="lazy"></a>
+<a href="images/2026/travel-beach.jpg" data-lightbox="work"><img src="images/2026/travel-beach.jpg" alt="" loading="lazy"></a>
+<a href="images/2026/travel-beach-lunch.jpg" data-lightbox="work"><img src="images/2026/travel-beach-lunch.jpg" alt="" loading="lazy"></a>
+<a href="images/2026/jadt26-palermo.jpg" data-lightbox="work"><img src="images/2026/jadt26-palermo.jpg" alt="" loading="lazy"></a>
 <a href="images/travels10.jpeg" data-lightbox="work"><img src="images/travels10.jpeg" alt="University stairs"></a>
 <a href="images/travels7.jpeg" data-lightbox="work"><img src="images/travels7.jpeg" alt="Teaching class"></a>
 <a href="images/travels4.jpeg" data-lightbox="work"><img src="images/travels4.jpeg" alt="Teaching class"></a>

@@ -1,17 +1,23 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - lightbox.min.css
+    - lightbox-plus-jquery.min.js
 
 website:
   title: "Maria Spano"
+  favicon: images/favicon.png
   navbar:
-    background: "#0C1B33"
+    background: "#101B3D"
     foreground: light
     right:
       - text: Home
         href: index.qmd
       - text: Research
         href: publications.qmd
+      - text: Software & Projects
+        href: projects.qmd
       - text: Teaching
         href: teaching.qmd
       - text: About Me
@@ -24,11 +30,24 @@ website:
       - icon: globe
         href: https://www.researchgate.net/profile/Maria-Spano-2
         aria-label: ResearchGate
+  page-footer:
+    background: "#101B3D"
+    left: "© 2026 Maria Spano · University of Naples Federico II"
+    right:
+      - icon: envelope-fill
+        href: contacts.qmd
+        aria-label: Contacts
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=kh_hGT0AAAAJ
+        aria-label: Google Scholar
+      - icon: github
+        href: https://github.com/mariaspano
+        aria-label: GitHub
 
 format:
   html:
-    includes:
-      head: lightbox-head.html
+    include-in-header: lightbox-head.html
+    include-after-body: site-scripts.html
     theme: litera
     css: styles.css
     toc: false

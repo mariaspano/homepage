@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -33,16 +36,17 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-57d99212ba358e45be7777db754210b2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5aa540d3a071c3c0495ff51dbe268e79.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,6 +74,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="lightbox.min.css" rel="stylesheet">
+<script src="lightbox-plus-jquery.min.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -99,6 +105,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Software &amp; Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./teaching.html"> 
@@ -140,6 +150,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">About Me</h1>
+<p class="subtitle lead">Family, travels, conferences and the people who make it all worthwhile.</p>
 </div>
 
 
@@ -157,22 +168,111 @@ ul.task-list li input[type="checkbox"] {
 
 
 <section id="my-family" class="level2">
-<h2 class="anchored" data-anchor-id="my-family"><strong>My Family</strong></h2>
+<h2 class="anchored" data-anchor-id="my-family">My Family</h2>
 <div class="gallery-grid">
-<p><a href="images/family.jpeg" data-lightbox="family"><img src="images/family.jpeg" alt="Maria and daughter"></a> <a href="images/family2.jpeg" data-lightbox="family"><img src="images/family2.jpeg" alt="On the snow"></a> <a href="images/family3.jpeg" data-lightbox="family"><img src="images/family3.jpeg" alt="On the snow"></a> <a href="images/io4.jpeg" data-lightbox="family"><img src="images/io4.jpeg" alt=""></a> <a href="images/family5.jpeg" data-lightbox="family"><img src="images/family5.jpeg" alt="kids"></a> <a href="images/family1.jpeg" data-lightbox="family"><img src="images/family1.jpeg" alt="kids"></a> <a href="images/lumacone.jpeg" data-lightbox="family"><img src="images/lumacone.jpeg" alt=""></a> <a href="images/family4.jpeg" data-lightbox="family"><img src="images/family4.jpeg" alt=""></a> <a href="images/family7.jpeg" data-lightbox="family"><img src="images/family7.jpeg" alt=""></a> <a href="images/io2.jpeg" data-lightbox="family"><img src="images/io2.jpeg" alt=""></a> <a href="images/io.jpeg" data-lightbox="family"><img src="images/io.jpeg" alt=""></a> <a href="images/family8.jpeg" data-lightbox="family"><img src="images/family8.jpeg" alt=""></a> <a href="images/family6.jpeg" data-lightbox="family"><img src="images/family6.jpeg" alt=""></a> <a href="images/neve2023.jpeg" data-lightbox="family"><img src="images/neve2023.jpeg" alt=""></a> <a href="images/lago.jpeg" data-lightbox="family"><img src="images/lago.jpeg" alt=""></a></p>
+<p><a href="images/2026/family-garden.jpg" data-lightbox="family"><img src="images/2026/family-garden.jpg" alt="" loading="lazy"></a> <a href="images/2026/family-daughter.jpg" data-lightbox="family"><img src="images/2026/family-daughter.jpg" alt="" loading="lazy"></a> <a href="images/2026/family-camper.jpg" data-lightbox="family"><img src="images/2026/family-camper.jpg" alt="" loading="lazy"></a> <a href="images/2026/me-scooter.jpg" data-lightbox="family"><img src="images/2026/me-scooter.jpg" alt="" loading="lazy"></a> <a href="images/2026/me-bw.jpg" data-lightbox="family"><img src="images/2026/me-bw.jpg" alt="" loading="lazy"></a> <a href="images/family.jpeg" data-lightbox="family"><img src="images/family.jpeg" alt="Maria and daughter"></a> <a href="images/family2.jpeg" data-lightbox="family"><img src="images/family2.jpeg" alt="On the snow"></a> <a href="images/family3.jpeg" data-lightbox="family"><img src="images/family3.jpeg" alt="On the snow"></a> <a href="images/io4.jpeg" data-lightbox="family"><img src="images/io4.jpeg" alt=""></a> <a href="images/family5.jpeg" data-lightbox="family"><img src="images/family5.jpeg" alt="kids"></a> <a href="images/family1.jpeg" data-lightbox="family"><img src="images/family1.jpeg" alt="kids"></a> <a href="images/lumacone.jpeg" data-lightbox="family"><img src="images/lumacone.jpeg" alt=""></a> <a href="images/family4.jpeg" data-lightbox="family"><img src="images/family4.jpeg" alt=""></a> <a href="images/family7.jpeg" data-lightbox="family"><img src="images/family7.jpeg" alt=""></a> <a href="images/io2.jpeg" data-lightbox="family"><img src="images/io2.jpeg" alt=""></a> <a href="images/io.jpeg" data-lightbox="family"><img src="images/io.jpeg" alt=""></a> <a href="images/family8.jpeg" data-lightbox="family"><img src="images/family8.jpeg" alt=""></a> <a href="images/family6.jpeg" data-lightbox="family"><img src="images/family6.jpeg" alt=""></a> <a href="images/neve2023.jpeg" data-lightbox="family"><img src="images/neve2023.jpeg" alt=""></a> <a href="images/lago.jpeg" data-lightbox="family"><img src="images/lago.jpeg" alt=""></a></p>
 </div>
 <hr>
 </section>
-<section id="experiences-from-my-work-travels-and-much-more" class="level2">
-<h2 class="anchored" data-anchor-id="experiences-from-my-work-travels-and-much-more"><strong>Experiences from my work, travels, and much more…</strong></h2>
+<section id="work-travels-and-much-more" class="level2">
+<h2 class="anchored" data-anchor-id="work-travels-and-much-more">Work, travels and much more</h2>
 <div class="gallery-grid">
-<p><a href="images/travels10.jpeg" data-lightbox="work"><img src="images/travels10.jpeg" alt="University stairs"></a> <a href="images/travels7.jpeg" data-lightbox="work"><img src="images/travels7.jpeg" alt="Teaching class"></a> <a href="images/travels4.jpeg" data-lightbox="work"><img src="images/travels4.jpeg" alt="Teaching class"></a> <a href="images/giardini.jpeg" data-lightbox="work"><img src="images/giardini.jpeg" alt="Teaching class"></a> <a href="images/ale40.jpeg" data-lightbox="work"><img src="images/ale40.jpeg" alt="Teaching class"></a> <a href="images/travels8.jpeg" data-lightbox="work"><img src="images/travels8.jpeg" alt="Teaching class"></a> <a href="images/travels2.jpeg" data-lightbox="work"><img src="images/travels2.jpeg" alt="TALL"></a> <a href="images/travels1.jpeg" data-lightbox="work"><img src="images/travels1.jpeg" alt=""></a> <a href="images/travels9.jpg" data-lightbox="work"><img src="images/travels9.jpg" alt=""></a> <a href="images/travels6.jpeg" data-lightbox="work"><img src="images/travels6.jpeg" alt=""></a> <a href="images/travels3.jpeg" data-lightbox="work"><img src="images/travels3.jpeg" alt=""></a> <a href="images/travels5.jpeg" data-lightbox="work"><img src="images/travels5.jpeg" alt=""></a> <a href="images/travels.jpeg" data-lightbox="work"><img src="images/travels.jpeg" alt=""></a> <a href="images/concerto.jpeg" data-lightbox="work"><img src="images/concerto.jpeg" alt="Teaching class"></a></p>
+<p><a href="images/2026/travel-boat.jpg" data-lightbox="work"><img src="images/2026/travel-boat.jpg" alt="" loading="lazy"></a> <a href="images/2026/jadt26-evening.jpg" data-lightbox="work"><img src="images/2026/jadt26-evening.jpg" alt="" loading="lazy"></a> <a href="images/2026/travel-porthole.jpg" data-lightbox="work"><img src="images/2026/travel-porthole.jpg" alt="" loading="lazy"></a> <a href="images/2026/travel-moka.jpg" data-lightbox="work"><img src="images/2026/travel-moka.jpg" alt="" loading="lazy"></a> <a href="images/2026/travel-alley.jpg" data-lightbox="work"><img src="images/2026/travel-alley.jpg" alt="" loading="lazy"></a> <a href="images/2026/travel-beach.jpg" data-lightbox="work"><img src="images/2026/travel-beach.jpg" alt="" loading="lazy"></a> <a href="images/2026/travel-beach-lunch.jpg" data-lightbox="work"><img src="images/2026/travel-beach-lunch.jpg" alt="" loading="lazy"></a> <a href="images/2026/jadt26-palermo.jpg" data-lightbox="work"><img src="images/2026/jadt26-palermo.jpg" alt="" loading="lazy"></a> <a href="images/travels10.jpeg" data-lightbox="work"><img src="images/travels10.jpeg" alt="University stairs"></a> <a href="images/travels7.jpeg" data-lightbox="work"><img src="images/travels7.jpeg" alt="Teaching class"></a> <a href="images/travels4.jpeg" data-lightbox="work"><img src="images/travels4.jpeg" alt="Teaching class"></a> <a href="images/giardini.jpeg" data-lightbox="work"><img src="images/giardini.jpeg" alt="Teaching class"></a> <a href="images/ale40.jpeg" data-lightbox="work"><img src="images/ale40.jpeg" alt="Teaching class"></a> <a href="images/travels8.jpeg" data-lightbox="work"><img src="images/travels8.jpeg" alt="Teaching class"></a> <a href="images/travels2.jpeg" data-lightbox="work"><img src="images/travels2.jpeg" alt="TALL"></a> <a href="images/travels1.jpeg" data-lightbox="work"><img src="images/travels1.jpeg" alt=""></a> <a href="images/travels9.jpg" data-lightbox="work"><img src="images/travels9.jpg" alt=""></a> <a href="images/travels6.jpeg" data-lightbox="work"><img src="images/travels6.jpeg" alt=""></a> <a href="images/travels3.jpeg" data-lightbox="work"><img src="images/travels3.jpeg" alt=""></a> <a href="images/travels5.jpeg" data-lightbox="work"><img src="images/travels5.jpeg" alt=""></a> <a href="images/travels.jpeg" data-lightbox="work"><img src="images/travels.jpeg" alt=""></a> <a href="images/concerto.jpeg" data-lightbox="work"><img src="images/concerto.jpeg" alt="Teaching class"></a></p>
 </div>
 
 
 </section>
 
 </main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var main = document.querySelector("main.content") || document.body;
+
+  /* ---------- Publications: highlight name, toolbar, search & filters ---------- */
+  if (document.body.classList.contains("page-publications")) {
+    var sections = Array.prototype.slice.call(main.querySelectorAll("section.level2"));
+    var palette = ["coral", "teal", "sun", "violet", "sky", "pink", "lime"];
+    var pubSections = [];
+
+    sections.forEach(function (sec, i) {
+      var items = sec.querySelectorAll(":scope > ul > li");
+      if (!items.length) return;
+      var color = palette[pubSections.length % palette.length];
+      sec.classList.add("pub-section", "accent-" + color);
+      var h = sec.querySelector("h2");
+      var badge = document.createElement("span");
+      badge.className = "pub-count";
+      badge.textContent = items.length;
+      h.appendChild(badge);
+      items.forEach(function (li) {
+        li.innerHTML = li.innerHTML.replace(/Spano,\s*M\./g, '<span class="me">Spano, M.</span>');
+        var m = li.textContent.match(/\((\d{4})\)/);
+        if (m) li.setAttribute("data-year", m[1]);
+      });
+      pubSections.push({ sec: sec, id: sec.id, title: h.firstChild.textContent.trim(), color: color, n: items.length });
+    });
+
+    if (pubSections.length) {
+      var total = pubSections.reduce(function (a, s) { return a + s.n; }, 0);
+      var bar = document.createElement("div");
+      bar.className = "pub-toolbar";
+      var chips = '<button class="pub-chip active" data-target="all">All <b>' + total + '</b></button>';
+      pubSections.forEach(function (s) {
+        chips += '<button class="pub-chip chip-' + s.color + '" data-target="' + s.id + '">' + s.title + ' <b>' + s.n + '</b></button>';
+      });
+      bar.innerHTML =
+        '<div class="pub-search"><i class="bi bi-search"></i>' +
+        '<input type="search" placeholder="Search by title, co-author, journal, year…" aria-label="Search publications"></div>' +
+        '<div class="pub-chips">' + chips + '</div>' +
+        '<p class="pub-empty" hidden>No publications match your search.</p>';
+      pubSections[0].sec.parentNode.insertBefore(bar, pubSections[0].sec);
+
+      var input = bar.querySelector("input");
+      var empty = bar.querySelector(".pub-empty");
+      var current = "all";
+
+      function apply() {
+        var q = input.value.trim().toLowerCase();
+        var shown = 0;
+        pubSections.forEach(function (s) {
+          var visibleInSec = 0;
+          var sectionOn = current === "all" || current === s.id;
+          s.sec.querySelectorAll(":scope > ul > li").forEach(function (li) {
+            var ok = sectionOn && (!q || li.textContent.toLowerCase().indexOf(q) !== -1);
+            li.hidden = !ok;
+            if (ok) visibleInSec++;
+          });
+          s.sec.hidden = visibleInSec === 0;
+          shown += visibleInSec;
+        });
+        empty.hidden = shown !== 0;
+      }
+      input.addEventListener("input", apply);
+      bar.querySelectorAll(".pub-chip").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          bar.querySelectorAll(".pub-chip").forEach(function (b) { b.classList.remove("active"); });
+          btn.classList.add("active");
+          current = btn.getAttribute("data-target");
+          apply();
+        });
+      });
+    }
+  }
+
+  /* ---------- Reveal on scroll ---------- */
+  var reveal = document.querySelectorAll(".reveal");
+  if ("IntersectionObserver" in window && reveal.length) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add("is-visible"); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.12 });
+    reveal.forEach(function (el) { io.observe(el); });
+  } else {
+    reveal.forEach(function (el) { el.classList.add("is-visible"); });
+  }
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -574,6 +674,37 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Maria Spano · University of Naples Federico II</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./contacts.html">
+<p>Contacts</p>
+</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=kh_hGT0AAAAJ">
+      <i class="bi bi-mortarboard-fill" role="img" aria-label="Google Scholar">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/mariaspano">
+      <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 

@@ -1,29 +1,59 @@
 ---
-title: ""
+title: "Contacts"
+subtitle: "Happy to talk about research collaborations, seminars and workshops."
 format:
   html:
     toc: false
     body-classes: "page-contacts"
 ---
 
-## Contacts
+```{=html}
+<h2>Get in touch</h2>
+<div class="ct-grid">
+  <div class="ct-card c-coral">
+    <div class="ic"><i class="bi bi-envelope-fill"></i></div>
+    <div><span class="lbl">Email</span><span class="val">maria.spano [at] unina.it</span></div>
+  </div>
+  <a class="ct-card c-teal" href="https://www.dises.unina.it" target="_blank">
+    <div class="ic"><i class="bi bi-building-fill"></i></div>
+    <div><span class="lbl">Affiliation</span><span class="val">Dept. of Economics and Statistics, University of Naples Federico II</span></div>
+  </a>
+  <a class="ct-card c-sun" href="https://maps.google.com/?q=Complesso+Universitario+Monte+Sant'Angelo+Via+Cintia+Napoli" target="_blank">
+    <div class="ic"><i class="bi bi-geo-alt-fill"></i></div>
+    <div><span class="lbl">Address</span><span class="val">Complesso Universitario di Monte Sant'Angelo, Building 3, 80126 Naples, Italy</span></div>
+  </a>
+</div>
 
--   **Email**: maria.spano\[at\]unina.it
--   **Affiliation**: Department of Economics and Statistics, University of Naples Federico II
--   **Address**: Via Cintia, Monte Sant'Angelo, Naples, Italy
--   **ORCID**: <a href="https://orcid.org/0000-0002-3103-2342" target="_blank">0000-0002-8517-9411</a>
--   **Google Scholar**: <a href="https://scholar.google.com/citations?user=kh_hGT0AAAAJ" target="_blank">Google Scholar Profile</a>
--   **Researcher ID**: <a href="https://www.researcherid.com/rid/F-3788-2018" target="_blank">F-3788-2018</a>
--   **Researchgate**: <a href="https://www.researchgate.net/profile/Maria-Spano-2" target="_blank">Maria_Spano</a>
+<h2>Research profiles</h2>
+<div class="ct-grid">
+  <a class="ct-card c-lime" style="--fg:#5A9E2A;--bg:var(--lime-lt)" href="https://orcid.org/0000-0002-3103-2342" target="_blank">
+    <div class="ic"><i class="bi bi-person-vcard-fill"></i></div>
+    <div><span class="lbl">ORCID</span><span class="val">0000-0002-3103-2342</span></div>
+  </a>
+  <a class="ct-card c-sky" href="https://scholar.google.com/citations?user=kh_hGT0AAAAJ" target="_blank">
+    <div class="ic"><i class="bi bi-mortarboard-fill"></i></div>
+    <div><span class="lbl">Google Scholar</span><span class="val">Profile &amp; citations</span></div>
+  </a>
+  <a class="ct-card c-violet" href="https://www.researchgate.net/profile/Maria-Spano-2" target="_blank">
+    <div class="ic"><i class="bi bi-globe2"></i></div>
+    <div><span class="lbl">ResearchGate</span><span class="val">Maria_Spano</span></div>
+  </a>
+  <a class="ct-card c-pink" href="https://www.researcherid.com/rid/F-3788-2018" target="_blank">
+    <div class="ic"><i class="bi bi-upc-scan"></i></div>
+    <div><span class="lbl">Researcher ID</span><span class="val">F-3788-2018</span></div>
+  </a>
+  <a class="ct-card c-coral" href="https://github.com/mariaspano" target="_blank">
+    <div class="ic"><i class="bi bi-github"></i></div>
+    <div><span class="lbl">GitHub</span><span class="val">mariaspano</span></div>
+  </a>
+</div>
 
-
-### Research Institutions and Groups
--   <a href="https://www.dises.unina.it" target="_blank"> Dept. of Economics and Statistics</a>
-
--   <a href="https://www.unina.it" target="_blank"> University of Naples Federico II</a>
-
--   <a href="https://www.k-synth.com" target="_blank"> K-Synth Academic Spin-off</a>
-
--   <a href="https://www.bibliometrix.org" target="_blank"> Bibliometrix Website</a>
-
--   <a href="https://www.bibliometrix.org/sssm" target="_blank"> Summer School in Science Mapping</a>
+<h2>Institutions &amp; groups</h2>
+<div class="ct-links">
+  <a href="https://www.dises.unina.it" target="_blank"><i class="bi bi-bank"></i> Dept. of Economics and Statistics</a>
+  <a href="https://www.unina.it" target="_blank"><i class="bi bi-building"></i> University of Naples Federico II</a>
+  <a href="https://www.k-synth.com" target="_blank"><i class="bi bi-lightbulb"></i> K-Synth Academic Spin-off</a>
+  <a href="https://www.bibliometrix.org" target="_blank"><i class="bi bi-diagram-3"></i> Bibliometrix</a>
+  <a href="https://www.bibliometrix.org/sssm" target="_blank"><i class="bi bi-sun"></i> Summer School in Science Mapping</a>
+</div>
+```

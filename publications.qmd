@@ -1,5 +1,6 @@
 ---
 title: "Research"
+subtitle: "Journal articles, books, chapters, proceedings and software. Search or filter by type."
 format:
   html:
     toc: true
@@ -8,27 +9,33 @@ format:
 
 ## Working Papers
 
-- Alaimo, S. L., Aria, M., D'Aniello, L., & Spano, M. (2026). *Scientific knowledge and healthcare quality: A multidimensional assessment of Italian Academic Health Science Centres*. **Applied Stochastic Models in Business and Industry**. [forthcoming]
+- Aria, M., Cuccurullo, C., & Spano, M. (2026). *Multiplex coupling: Connecting the intellectual base and the topics of a research field*. arXiv:2610.21858. [arXiv](https://arxiv.org/abs/2610.21858)
 
-- Aria, M., D'Aniello, L., Misuraca, M., & Spano, M. (2026). *Rethinking thematic evolution in science mapping: An integrated framework for longitudinal analysis*. arXiv:2603.06436. [arXiv](https://arxiv.org/abs/2603.06436)
-
-- Aria, M., D'Aniello, L., & Spano, M. (2026). *A Multi-Phase Reference Matching Algorithm for Bibliometric Analysis: Design, Implementation, and Evaluation*. [in preparation]
+- Alaimo, S. L., Aria, M., D'Aniello, L., & Spano, M. (2026). *Scientific knowledge and healthcare quality: A multidimensional assessment of Italian Academic Health Science Centres*. **Statistical Papers**. [under review]
 
 ## Journal Articles
 
-- Aria, M., Cuccurullo, C., D'Aniello, L., & Spano, M. (2026). *Biblioshiny and the SAAS Workflow: An integrated framework for transparent and reproducible science mapping*. **Journal of Informetrics**, 20(3), 101837.
+- Aria, M., D'Aniello, L., Misuraca, M., & Spano, M. (2026). *Rethinking thematic evolution in science mapping: An integrated framework for longitudinal analysis*. **Journal of Informetrics**, 20(4), 101877. [DOI](https://doi.org/10.1016/j.joi.2026.101877)
 
-- Aria, M., Spano, M., D'Aniello, L., Cuccurullo, C., & Misuraca, M. (2026). *TALL: Text Analysis for All – an interactive R-Shiny application for exploring, modeling, and visualizing textual data*. **SoftwareX** (Elsevier), 34, 102590.
+- Misuraca, M., Spano, M., & D'Aniello, L. (2026). *Energy transition as the core of climate discourse: Mapping social representations in digital public debate*. **Energy Research & Social Science**, 140, 104945. [DOI](https://doi.org/10.1016/j.erss.2026.104945)
 
-- Misuraca, M., Spano, M., & D'Aniello, L. (2026). *ThemeScope: A quantitative thematic analysis for depicting social representations in digital arenas*. **Journal of Information Science**, 1–25.
+- Aria, M., Cuccurullo, C., D'Aniello, L., & Spano, M. (2026). *Biblioshiny and the SAAS Workflow: An integrated framework for transparent and reproducible science mapping. A demonstration through the replication of a study*. **Journal of Informetrics**, 20(3), 101837. [DOI](https://doi.org/10.1016/j.joi.2026.101837)
 
-- Aria, M., Cuccurullo, C., D'Aniello, L., & Spano, M. (2026). *SciK-Health: An open-data dashboard for the multidimensional evaluation of Italian academic health science centers*. **Quality & Quantity**, 1–30.
+- Aria, M., D'Aniello, L., & Spano, M. (2026). *A multi-phase reference matching algorithm for bibliometric analysis: Design, implementation, and evaluation*. **Scientometrics**, 131(9), 6693–6728. [DOI](https://doi.org/10.1007/s11192-026-05763-2)
 
-- Aria, M., Costanzo, D., Misuraca, M., & Spano, M. (2026). *Assessing tourism sustainability through stochastic multi-criteria acceptability analysis: Insights from the Italian regional context*. **Management Decision**, 1–18. [DOI](https://doi.org/10.1108/MD-09-2025-2815)
+- Misuraca, M., Spano, M., & D'Aniello, L. (2026). *ThemeScope: A quantitative thematic analysis for depicting social representations in digital arenas*. **Journal of Information Science**, OnlineFirst, 1–18. [DOI](https://doi.org/10.1177/01655515261454276)
 
-- Aria, M., Cuccurullo, C., D'Aniello, L., Misuraca, M., & Spano, M. (2026). *Sintetizzare la conoscenza: Un approccio integrato per l'estrazione di contenuti rilevanti nella letteratura scientifica*. **Tesi e Temi**, 1, 57–75.
+- Misuraca, M., D'Aniello, L., & Spano, M. (2026). *A computational pipeline for hierarchical evocation analysis of renewable energy in online climate discourse*. **Sustainability**, 18(14), 7295. [DOI](https://doi.org/10.3390/su18147295)
 
-- Cobo, M. J., De Mascellis, A. M., Misuraca, M., & Spano, M. (2026). *Automatic temporal framing detection for news analysis*. **Quality & Quantity**, 60(2), 5063–5085. [DOI](https://doi.org/10.1007/s11135-025-02492-1)
+- Aria, M., Cuccurullo, C., D'Aniello, L., & Spano, M. (2026). *SciK-Health: An open-data dashboard for the multidimensional evaluation of Italian academic health science centers*. **Quality & Quantity**, 60(5), 16437–16466. [DOI](https://doi.org/10.1007/s11135-026-02827-6)
+
+- Aria, M., Costanzo, D., Misuraca, M., & Spano, M. (2026). *Assessing tourism sustainability through Stochastic Multicriteria Acceptability Analysis: Insights from the Italian regional context*. **Management Decision**. [DOI](https://doi.org/10.1108/MD-09-2025-2815)
+
+- Aria, M., Cuccurullo, C., D'Aniello, L., Misuraca, M., & Spano, M. (2026). *Sintetizzare la conoscenza: Un approccio integrato per l'estrazione di contenuti rilevanti nella letteratura scientifica*. **Tesi e Temi**, 1, Giapeto Editore, Napoli, 57–75.
+
+- Aria, M., Spano, M., D'Aniello, L., Cuccurullo, C., & Misuraca, M. (2026). *TALL: Text Analysis for All – an interactive R-Shiny application for exploring, modeling, and visualizing textual data*. **SoftwareX**, 34, 102590. [DOI](https://doi.org/10.1016/j.softx.2026.102590)
+
+- Cobo, M. J., De Mascellis, A. M., Misuraca, M., & Spano, M. (2025). *Automatic temporal framing detection for news analysis*. **Quality & Quantity**, 60(2), 5063–5085. [DOI](https://doi.org/10.1007/s11135-025-02492-1)
 
 - Aria, M., Cuccurullo, C., D'Aniello, L., Misuraca, M., & Spano, M. (2024). *Comparative science mapping: a novel conceptual structure analysis with metadata*. **Scientometrics**, 129(11), 7055–7081. [DOI](https://doi.org/10.1007/s11192-024-05161-6)
 
@@ -74,17 +81,19 @@ format:
 
 - Ginesti, G., Macchioni, R., Sannino, G., & Spano, M. (2013). *The Impact of IASB's Guidelines for Preparing Management Commentary: Evidence from Italian Listed Firms*. **Journal of Modern Accounting and Auditing**, 9(3), 305–320.
 
-## Books
+## Books & Edited Volumes
 
 - Cuccurullo, C., Aria, M., Spano, M., & D'Aniello, L. (2023). *Leading Change in Academic Health Science Centers*. Zaccaria srl, 1–124.
 
+- Misuraca, M., Scepi, G., & Spano, M. (Eds.) (2022). *JADT 2022 – Proceedings of the 16th International Conference on Statistical Analysis of Textual Data*. VADISTAT Press / Edizioni Erranti, Napoli, 1–887.
+
 ## Book Chapters
 
-- Cozzucoli, L. A., Misuraca, M., & Spano, M. (2026). *Evaluating the Impact of Government Orientation on the Adoption of AI in Business: A Causal Inference Study*. In F. Greco, A. Fronzetti Colladon, P. A. Gloor (Eds.), *Artificial Intelligence and Networks for a Sustainable Future: Connecting Species*, Springer, Cham. [in press]
+- Cozzucoli, L. A., Misuraca, M., & Spano, M. (2026). *Evaluating the impact of government orientation on the adoption of AI in business: A causal inference study*. In F. Greco, A. Fronzetti Colladon, P. A. Gloor (Eds.), *Artificial Intelligence and Networks for a Sustainable Future: Connecting Species*, Springer, Cham, pp. 369–377. [DOI](https://doi.org/10.1007/978-3-032-13458-5_20)
+
+- De Mascellis, A. M., Misuraca, M., Scepi, G., & Spano, M. (2026). *An automatic framing approach to analyse newspaper and press language*. In E. Amaturo, B. Aragona, C. Crocetta, M. G. Grassia, C. N. Lauro, M. Marino (Eds.), *Data Science and Social Research III – Epistemology, Methods, Technology, Applications, and Relation to Artificial Intelligence*, Springer, Cham, pp. 1–12.
 
 - Spano, M., Misuraca, M., & Celardo, L. (2025). *From Vectors to Networks: Comparing Conventional and Graph-Based Approaches to Unsupervised Text Categorisation*. In A. D'Ambrosio et al. (Eds.), *Supervised and Unsupervised Statistical Data Analysis*, Springer, Cham, pp. 304–315.
-
-- De Mascellis, A. M., Misuraca, M., Scepi, G., & Spano, M. (2025). *An automatic framing approach to analyse newspaper and press language*. In XXX (Eds.), *Data Science and Social Research IV*, Springer, Cham. [in press]
 
 - Misuraca, M., Scepi, G., & Spano, M. (2023). *Network-based dimensionality reduction for textual datasets*. In E. Brentari, M. Chiodi, E.-J. C. Wit (Eds.), *Models for Data Analysis*, Springer, Cham, pp. 175–190.
 
@@ -94,11 +103,17 @@ format:
 
 ## Conference Proceedings
 
+- Misuraca, M., Spano, M., & D'Aniello, L. (2026). *Constructing climate change discourse in the digital public sphere: A computational analysis of social representations*. In A. Plaia, M. Sciandra, A. Albano (Eds.), *JADT2026 – 18th International Conference on Statistical Analysis of Textual Data*, Vol. I, Palermo University Press, pp. 253–262.
+
+- Aria, M., Cobo, M. J., D'Aniello, L., Misuraca, M., & Spano, M. (2026). *Temporal dynamics of AI news frames: A multilayer network approach*. In A. Plaia, M. Sciandra, A. Albano (Eds.), *JADT2026 – 18th International Conference on Statistical Analysis of Textual Data*, Vol. I, Palermo University Press, pp. 263–272.
+
+- Aria, M., Cobo, M. J., D'Aniello, L., Misuraca, M., & Spano, M. (2026). *A multilayer network approach for longitudinal frame detection in newspaper and press language*. In F. Martella, S. Arima, M. F. Marino, C. Mollica (Eds.), *Statistical Science: From Theory to Applied Research II – SIS-FENStatS 2026*, Springer, Cham, pp. 101–107. [DOI](https://doi.org/10.1007/978-3-032-30877-1_17)
+
 - Aria, M., Cuccurullo, C., D'Aniello, L., Spano, M., & Alabiso, C. (2025). *From data collection to knowledge in health: Turning scientific production into practical decision-making tools*. In G. Boccuzzo et al. (Eds.), *IES 2025 – Statistics and Data Science for Evaluation and Quality*, Cleup, Padova. ISBN: 978-88-5495-849-4.
 
 - Gnasso, A., Sacco, D., Celardo, L., Smecca, M. A., Alabiso, C., & Spano, M. (2025). *Research excellence and patient perception: investigating the impact of AHSCs' scientific output*. In G. Boccuzzo et al. (Eds.), *IES 2025*, Cleup, Padova. ISBN: 978-88-5495-849-4.
 
-- Aria, M., Cuccurullo, C., D'Aniello, L., Misuraca, M., & Spano, M. (2025). *Keyword-enhanced summarization from scientific literature through an integrated approach*. In L. S. Alaimo et al. (Eds.), *ASA 2024 – Statistics, Technology and Data Science for Economic and Social Development*, Firenze University Press, pp. 37–43. [DOI](https://doi.org/10.26398/asaproc.0076)
+- Aria, M., Cuccurullo, C., D'Aniello, L., & Spano, M. (2025). *Keyword-enhanced summarization from scientific literature through an integrated approach*. In L. S. Alaimo, F. Crescenzi, L. Fabbris, F. Maggino, M. Vichi (Eds.), *Measuring and Interpreting World Changes with Statistics, Data Science and AI (ASA 2024)*, Firenze University Press, pp. 37–43. [DOI](https://doi.org/10.26398/asaproc.0076)
 
 - Belfiore, A., Spano, M., Cuccurullo, C., & Giordano, W. (2024). *Beyond Text: Unveiling Corporate Communication Strategies Through Textual Analysis of CEO Letters*. In A. Dister, D. Longrée (Eds.), *JADT24*, Presses Universitaires De Louvain, Vol. 1, pp. 69–78. ISBN: 978-2-39061-471-5.
 
@@ -108,11 +123,11 @@ format:
 
 - D'Aniello, L., Aria, M., Cuccurullo, C., Misuraca, M., & Spano, M. (2024). *Extracting knowledge from scientific literature with an integrated text summarization approach*. In A. Dister, D. Longrée (Eds.), *JADT24*, Presses Universitaires De Louvain, Vol. 1, pp. 239–248. ISBN: 978-2-39061-471-5.
 
-- Costanzo, G. D., Dattilo, B., Di Torrice, M., Misuraca, M., & Spano, M. (2024). *Measuring Sustainability in Tourism via a Multi-Criteria Decision Making approach*. In A. Pollice, P. Mariani (Eds.), *SIS 2024*, Springer Nature, pp. 513–518.
+- Costanzo, G. D., Dattilo, B., Di Torrice, M., Misuraca, M., & Spano, M. (2025). *Measuring sustainability in tourism via a multi-criteria decision making approach*. In A. Pollice, P. Mariani (Eds.), *Methodological and Applied Statistics and Demography III (SIS 2024)*, Springer Nature, pp. 513–518. [DOI](https://doi.org/10.1007/978-3-031-64431-3_85)
 
-- Aria, M., Cuccurullo, C., D'Aniello, L., Misuraca, M., & Spano, M. (2024). *TALL: A new Shiny app for Text Analysis*. In A. Pollice, P. Mariani (Eds.), *SIS 2024*, Springer Nature, pp. 64–70.
+- Aria, M., Cuccurullo, C., D'Aniello, L., Misuraca, M., & Spano, M. (2025). *TALL: A new Shiny app for Text Analysis*. In A. Pollice, P. Mariani (Eds.), *Methodological and Applied Statistics and Demography III (SIS 2024)*, Springer Nature, pp. 64–70. [DOI](https://doi.org/10.1007/978-3-031-64431-3_11)
 
-- Celardo, L., Misuraca, M., & Spano, M. (2024). *Spatial sentiment analysis of tourist points of interest*. In *AIQUAV 2023*, UniBa, pp. 1–6.
+- Celardo, L., Misuraca, M., & Spano, M. (2024). *Spatial sentiment analysis of tourist points of interest*. In M. Antonicelli et al. (Eds.), *Quality of Life: Challenges and Opportunities in the Crossroads of the Mediterranean (AIQUAV 2023)*, Università di Bari Aldo Moro, pp. 82–92.
 
 - Aria, M., Cuccurullo, C., D'Aniello, L., Misuraca, M., & Spano, M. (2023). *TAll: a new Shiny app of Text Analysis for All*. In F. Boschetti et al. (Eds.), *CLiC-it 2023*, CEUR Workshop Proceedings, Vol. 3596, pp. 1–4.
 
@@ -162,42 +177,41 @@ format:
 
 - Misuraca, M., Forciniti, A., Scepi, G., & Spano, M. (2020). *Sentiment Analysis for Education with R: packages, methods and practical applications*. arXiv:2005.12840. [arXiv](https://arxiv.org/abs/2005.12840)
 
+- Hudec, M., Balbi, S., Juriova, J., Spano, M., Stawinoga, A., & Triunfo, N. (2012). *Report on principles of fuzzy methodology and tools developed for use in data collection (Soft computing and text mining tools for Official Statistics)*. BLUE-ETS Project, Deliverable 5.1.
+
+- D'Aniello, L., Misuraca, M., & Spano, M. (2026). **themescopeR: Social Representation Analysis via Semantic Network Mapping** — R package. CRAN. [DOI](https://doi.org/10.32614/CRAN.package.themescopeR)
+
 - Aria, M., Cuccurullo, C., D'Aniello, L., Misuraca, M., & Spano, M. (2023). **TALL: Text Analysis for All** — R/Shiny application. CRAN. [cran.r-project.org/package=tall](https://cran.r-project.org/web/packages/tall/index.html)
 
-## From Conference
+## From the Conferences
 
-::: {.row}
-::: {.col-md-7}
+I regularly present at national and international conferences on **text mining**, **data science** and **statistical analysis of textual data**. Since 2024 I have been a permanent member of the Scientific Committee of JADT.
 
-I regularly participate in national and international conferences on **text mining**, **data science**, and **statistical analysis of textual data**. Since 2024 I am a permanent member of the Scientific Committee of JADT. In 2022, I co-chaired the 16th JADT International Conference held in Naples.
+### JADT 2026 · Palermo, 8–10 July
 
-:::
-
-::: {.col-md-5}
-
-<div class="gallery-grid">
-
-<a href="images/pub3.jpg" data-lightbox="conference">
-  <img src="images/pub3.jpg" alt="Teaching at University of Padova">
-  <p style="font-size: 0.78rem; text-align: center; margin-top: 0.3rem; color: #64748B;">Teaching at University of Padova</p>
-</a>
-
-<a href="images/pub2.jpeg" data-lightbox="conference">
-  <img src="images/pub2.jpeg" alt="TALL session">
-  <p style="font-size: 0.78rem; text-align: center; margin-top: 0.3rem; color: #64748B;">TALL session</p>
-</a>
-
-<a href="images/pub4.jpeg" data-lightbox="conference">
-  <img src="images/pub4.jpeg" alt="Data Science and Social Research">
-  <p style="font-size: 0.78rem; text-align: center; margin-top: 0.3rem; color: #64748B;">Data Science and Social Research Conference</p>
-</a>
-
-<a href="images/publ.jpeg" data-lightbox="conference">
-  <img src="images/publ.jpeg" alt="JADT Brussels">
-  <p style="font-size: 0.78rem; text-align: center; margin-top: 0.3rem; color: #64748B;">JADT 2024 – Université Saint-Louis Bruxelles</p>
-</a>
-
+<div class="conf-grid">
+<a href="images/2026/jadt26-talk1.jpg" data-lightbox="jadt26" data-title="JADT 2026 · presenting our work"><img src="images/2026/jadt26-talk1.jpg" alt="JADT 2026 · presenting our work" loading="lazy"><span class="cap">JADT 2026 · presenting our work</span></a>
+<a href="images/2026/jadt26-group.jpg" data-lightbox="jadt26" data-title="JADT 2026 · with co-authors and colleagues"><img src="images/2026/jadt26-group.jpg" alt="JADT 2026 · with co-authors and colleagues" loading="lazy"><span class="cap">JADT 2026 · with co-authors and colleagues</span></a>
+<a href="images/2026/jadt26-talk2.jpg" data-lightbox="jadt26" data-title="JADT 2026 · discussion"><img src="images/2026/jadt26-talk2.jpg" alt="JADT 2026 · discussion" loading="lazy"><span class="cap">JADT 2026 · discussion</span></a>
+<a href="images/2026/jadt26-palermo.jpg" data-lightbox="jadt26" data-title="JADT 2026 · Palermo"><img src="images/2026/jadt26-palermo.jpg" alt="JADT 2026 · Palermo" loading="lazy"><span class="cap">JADT 2026 · Palermo</span></a>
+<a href="images/2026/jadt26-dinner.jpg" data-lightbox="jadt26" data-title="JADT 2026 · social dinner"><img src="images/2026/jadt26-dinner.jpg" alt="JADT 2026 · social dinner" loading="lazy"><span class="cap">JADT 2026 · social dinner</span></a>
 </div>
 
-:::
-:::
+### SIS-FENStatS 2026 · Rome, 22–25 June
+
+<div class="conf-grid">
+<a href="images/2026/sis26-talk.jpg" data-lightbox="sis26" data-title="SIS-FENStatS 2026 · presenting our work"><img src="images/2026/sis26-talk.jpg" alt="SIS-FENStatS 2026 · presenting our work" loading="lazy"><span class="cap">SIS-FENStatS 2026 · presenting our work</span></a>
+<a href="images/2026/sis26-badge.jpg" data-lightbox="sis26" data-title="SIS-FENStatS 2026 · Sapienza, Rome"><img src="images/2026/sis26-badge.jpg" alt="SIS-FENStatS 2026 · Sapienza, Rome" loading="lazy"><span class="cap">SIS-FENStatS 2026 · Sapienza, Rome</span></a>
+<a href="images/2026/sis26-colleagues.jpg" data-lightbox="sis26" data-title="SIS-FENStatS 2026"><img src="images/2026/sis26-colleagues.jpg" alt="SIS-FENStatS 2026" loading="lazy"><span class="cap">SIS-FENStatS 2026</span></a>
+<a href="images/2026/sis26-rome.jpg" data-lightbox="sis26" data-title="SIS-FENStatS 2026 · Rome"><img src="images/2026/sis26-rome.jpg" alt="SIS-FENStatS 2026 · Rome" loading="lazy"><span class="cap">SIS-FENStatS 2026 · Rome</span></a>
+</div>
+
+### Earlier conferences
+
+<div class="conf-grid">
+<a href="images/publ.jpeg" data-lightbox="conf" data-title="JADT 2024 · Université Saint-Louis Bruxelles"><img src="images/publ.jpeg" alt="JADT 2024 · Université Saint-Louis Bruxelles" loading="lazy"><span class="cap">JADT 2024 · Université Saint-Louis Bruxelles</span></a>
+<a href="images/pub4.jpeg" data-lightbox="conf" data-title="DSSR 2024 · presenting TALL"><img src="images/pub4.jpeg" alt="DSSR 2024 · presenting TALL" loading="lazy"><span class="cap">DSSR 2024 · presenting TALL</span></a>
+<a href="images/pub2.jpeg" data-lightbox="conf" data-title="TALL session"><img src="images/pub2.jpeg" alt="TALL session" loading="lazy"><span class="cap">TALL session</span></a>
+<a href="images/pub3.jpg" data-lightbox="conf" data-title="Teaching at University of Padova"><img src="images/pub3.jpg" alt="Teaching at University of Padova" loading="lazy"><span class="cap">Teaching at University of Padova</span></a>
+<a href="images/2026/conf-stairs.jpg" data-lightbox="conf" data-title="With colleagues"><img src="images/2026/conf-stairs.jpg" alt="With colleagues" loading="lazy"><span class="cap">With colleagues</span></a>
+</div>

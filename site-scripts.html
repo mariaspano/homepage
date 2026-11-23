@@ -1,0 +1,89 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var main = document.querySelector("main.content") || document.body;
+
+  /* ---------- Publications: highlight name, toolbar, search & filters ---------- */
+  if (document.body.classList.contains("page-publications")) {
+    var sections = Array.prototype.slice.call(main.querySelectorAll("section.level2"));
+    var palette = ["coral", "teal", "sun", "violet", "sky", "pink", "lime"];
+    var pubSections = [];
+
+    sections.forEach(function (sec, i) {
+      var items = sec.querySelectorAll(":scope > ul > li");
+      if (!items.length) return;
+      var color = palette[pubSections.length % palette.length];
+      sec.classList.add("pub-section", "accent-" + color);
+      var h = sec.querySelector("h2");
+      var badge = document.createElement("span");
+      badge.className = "pub-count";
+      badge.textContent = items.length;
+      h.appendChild(badge);
+      items.forEach(function (li) {
+        li.innerHTML = li.innerHTML.replace(/Spano,\s*M\./g, '<span class="me">Spano, M.</span>');
+        var m = li.textContent.match(/\((\d{4})\)/);
+        if (m) li.setAttribute("data-year", m[1]);
+      });
+      pubSections.push({ sec: sec, id: sec.id, title: h.firstChild.textContent.trim(), color: color, n: items.length });
+    });
+
+    if (pubSections.length) {
+      var total = pubSections.reduce(function (a, s) { return a + s.n; }, 0);
+      var bar = document.createElement("div");
+      bar.className = "pub-toolbar";
+      var chips = '<button class="pub-chip active" data-target="all">All <b>' + total + '</b></button>';
+      pubSections.forEach(function (s) {
+        chips += '<button class="pub-chip chip-' + s.color + '" data-target="' + s.id + '">' + s.title + ' <b>' + s.n + '</b></button>';
+      });
+      bar.innerHTML =
+        '<div class="pub-search"><i class="bi bi-search"></i>' +
+        '<input type="search" placeholder="Search by title, co-author, journal, year…" aria-label="Search publications"></div>' +
+        '<div class="pub-chips">' + chips + '</div>' +
+        '<p class="pub-empty" hidden>No publications match your search.</p>';
+      pubSections[0].sec.parentNode.insertBefore(bar, pubSections[0].sec);
+
+      var input = bar.querySelector("input");
+      var empty = bar.querySelector(".pub-empty");
+      var current = "all";
+
+      function apply() {
+        var q = input.value.trim().toLowerCase();
+        var shown = 0;
+        pubSections.forEach(function (s) {
+          var visibleInSec = 0;
+          var sectionOn = current === "all" || current === s.id;
+          s.sec.querySelectorAll(":scope > ul > li").forEach(function (li) {
+            var ok = sectionOn && (!q || li.textContent.toLowerCase().indexOf(q) !== -1);
+            li.hidden = !ok;
+            if (ok) visibleInSec++;
+          });
+          s.sec.hidden = visibleInSec === 0;
+          shown += visibleInSec;
+        });
+        empty.hidden = shown !== 0;
+      }
+      input.addEventListener("input", apply);
+      bar.querySelectorAll(".pub-chip").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          bar.querySelectorAll(".pub-chip").forEach(function (b) { b.classList.remove("active"); });
+          btn.classList.add("active");
+          current = btn.getAttribute("data-target");
+          apply();
+        });
+      });
+    }
+  }
+
+  /* ---------- Reveal on scroll ---------- */
+  var reveal = document.querySelectorAll(".reveal");
+  if ("IntersectionObserver" in window && reveal.length) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add("is-visible"); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.12 });
+    reveal.forEach(function (el) { io.observe(el); });
+  } else {
+    reveal.forEach(function (el) { el.classList.add("is-visible"); });
+  }
+});
+</script>

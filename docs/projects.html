@@ -2,20 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects – Maria Spano</title>
+<title>Software &amp; Projects – Maria Spano</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -33,16 +36,17 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-57d99212ba358e45be7777db754210b2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5aa540d3a071c3c0495ff51dbe268e79.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,12 +74,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="lightbox.min.css" rel="stylesheet">
+<script src="lightbox-plus-jquery.min.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed page-projects quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -99,6 +105,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+<span class="menu-text">Software &amp; Projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./teaching.html"> 
@@ -139,7 +149,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Software &amp; Projects</h1>
+<p class="subtitle lead">Open-source tools, research projects, training and service to the scientific community.</p>
 </div>
 
 
@@ -156,10 +167,257 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<h2 class="anchored">Software</h2>
+<div class="pj-grid">
+
+  <div class="pj-card c-violet reveal">
+    <div class="pj-head">
+      <div class="ic"><i class="bi bi-diagram-3-fill"></i></div>
+      <div><span class="k">R package · Shiny app</span><h3 class="anchored">bibliometrix &amp; Biblioshiny</h3></div>
+    </div>
+    <div class="pj-body">
+      <p>Open-source R package for quantitative research in scientometrics and bibliometrics, with the Biblioshiny web interface. I am part of the development team. The SAAS workflow for transparent and reproducible science mapping with Biblioshiny is described in <em>Journal of Informetrics</em> (2026).</p>
+      <div class="pj-links">
+        <a href="https://www.bibliometrix.org" target="_blank">Website</a>
+        <a href="https://cran.r-project.org/package=bibliometrix" target="_blank">CRAN</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pj-card c-teal reveal">
+    <img class="pj-img" src="images/pub4.jpeg" alt="Presenting TALL">
+    <div class="pj-head">
+      <div class="ic"><i class="bi bi-chat-square-text-fill"></i></div>
+      <div><span class="k">R · Shiny app</span><h3 class="anchored">TALL · Text Analysis for All</h3></div>
+    </div>
+    <div class="pj-body">
+      <p>An interactive R-Shiny application for exploring, modelling and visualising textual data, designed for researchers without programming skills. Published in <em>SoftwareX</em> (2026).</p>
+      <div class="pj-links">
+        <a href="https://cran.r-project.org/package=tall" target="_blank">CRAN</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pj-card c-pink reveal">
+    <div class="pj-head">
+      <div class="ic"><i class="bi bi-bounding-box-circles"></i></div>
+      <div><span class="k">R package · 2026</span><h3 class="anchored">themescopeR</h3></div>
+    </div>
+    <div class="pj-body">
+      <p>Social representation analysis via semantic network mapping. It implements the ThemeScope approach to quantitative thematic analysis of digital arenas (<em>Journal of Information Science</em>, 2026).</p>
+      <div class="pj-links">
+        <a href="https://doi.org/10.32614/CRAN.package.themescopeR" target="_blank">CRAN</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<h2 class="anchored">Research projects</h2>
+<div class="pj-grid">
+
+  <div class="pj-card c-coral reveal">
+    <div class="pj-head">
+      <div class="ic"><i class="bi bi-hospital-fill"></i></div>
+      <div><span class="k">PRIN 2022 · 2023–2026</span><h3 class="anchored">SciK-Health</h3></div>
+    </div>
+    <div class="pj-body">
+      <p><em>Mapping Scientific Knowledge about health for decision-making</em> (2022825Y5E). Outputs include the SciK-Health open-data dashboard for the multidimensional evaluation of Italian academic health science centers (<em>Quality &amp; Quantity</em>, 2026).</p>
+      <div class="pj-links"><a href="publications.html">Related publications</a></div>
+    </div>
+  </div>
+
+  <div class="pj-card c-teal reveal">
+    <div class="pj-head">
+      <div class="ic"><i class="bi bi-heart-pulse-fill"></i></div>
+      <div><span class="k">PRIN 2022 PNRR · 2023–2026</span><h3 class="anchored">Scientific production &amp; patient care</h3></div>
+    </div>
+    <div class="pj-body">
+      <p><em>The value of scientific production for patient care in Academic Health Science Centres</em> (P2022RF38Y).</p>
+      <div class="pj-links"><a href="publications.html">Related publications</a></div>
+    </div>
+  </div>
+
+  <div class="pj-card c-violet reveal">
+    <div class="pj-head">
+      <div class="ic"><i class="bi bi-robot"></i></div>
+      <div><span class="k">FEDER Andalucía · 2024–2026</span><h3 class="anchored">Explainable &amp; trustworthy science</h3></div>
+    </div>
+    <div class="pj-body">
+      <p>Project C-ING-165-UGR23 on explainable, reliable and transferable science through intelligent decision and consensus systems applied to generative language models. PIs: I. J. Pérez Gálvez and M. J. Cobo Martín, University of Granada.</p>
+    </div>
+  </div>
+
+  <div class="pj-card c-sun reveal">
+    <div class="pj-head">
+      <div class="ic"><i class="bi bi-lightbulb-fill"></i></div>
+      <div><span class="k">Spin-off &amp; lab · since 2020–21</span><h3 class="anchored">K-Synth &amp; VRD Lab</h3></div>
+    </div>
+    <div class="pj-body">
+      <p>Member of <strong>K-Synth</strong>, an academic spin-off producing knowledge from large, heterogeneous data with statistical and data science methods, and of the <strong>VRD Lab</strong>, the DiSES laboratory for the analysis and evaluation of research and teaching.</p>
+      <div class="pj-links"><a href="https://www.k-synth.com" target="_blank">K-Synth</a></div>
+    </div>
+  </div>
+
+</div>
+
+<p style="margin-top:1rem;color:var(--c-muted);font-size:.92rem">Earlier projects include the European project BLUE-ETS (2010–2013), POR Campania FESR "Urban ecotourism for cultural heritage" (2014–2015), and University of Calabria research projects on clustering validation, opinion mining, social media mining and graph-based dimensionality reduction (2013–2018).</p>
+
+<h2 class="anchored">Training</h2>
+<div class="pj-grid">
+
+  <div class="pj-card c-sky reveal">
+    <div class="pj-head">
+      <div class="ic"><i class="bi bi-sun-fill"></i></div>
+      <div><span class="k">Summer School · Naples</span><h3 class="anchored">Science Mapping</h3></div>
+    </div>
+    <div class="pj-body">
+      <p>Coordinator and lecturer of the Summer School <em>Science Mapping: Systematic Literature Review with Bibliometrix and Biblioshiny</em> (four editions, 2023–2026) and of its 1st International Edition (June 2025).</p>
+      <div class="pj-links">
+        <a href="https://www.bibliometrix.org/sssm" target="_blank">Summer School</a>
+        <a href="teaching.html">Teaching</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pj-card c-pink reveal">
+    <div class="pj-head">
+      <div class="ic"><i class="bi bi-people-fill"></i></div>
+      <div><span class="k">Scientific community</span><h3 class="anchored">JADT</h3></div>
+    </div>
+    <div class="pj-body">
+      <p>Permanent member, since 2024, of the Scientific Committee of the International Conference on Statistical Analysis of Textual Data. Co-editor of the JADT 2022 proceedings (Naples).</p>
+      <div class="pj-links">
+        <a href="publications.html">Proceedings</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<h2 class="anchored">Service to the community</h2>
+<div class="pj-grid">
+  <div class="pj-card c-sky reveal">
+    <div class="pj-head">
+      <div class="ic"><i class="bi bi-calendar-event-fill"></i></div>
+      <div><span class="k">Conferences</span><h3 class="anchored">Committees &amp; sessions</h3></div>
+    </div>
+    <div class="pj-body">
+      <p>Organising committee of <strong>CLADAG 2025</strong> (Naples); scientific and organising committee of <strong>DSSR 2024</strong>; chair of the organising committee of <strong>JADT 2022</strong>; organiser of invited sessions at DSSR 2024 and AIQUAV 2023.</p>
+    </div>
+  </div>
+  <div class="pj-card c-lime reveal" style="--fg:#5A9E2A">
+    <div class="pj-head">
+      <div class="ic"><i class="bi bi-pencil-square"></i></div>
+      <div><span class="k">Editorial &amp; societies</span><h3 class="anchored">Reviewing &amp; memberships</h3></div>
+    </div>
+    <div class="pj-body">
+      <p>Editorial staff of <em>Statistica Applicata – Italian Journal of Applied Statistics</em>. Reviewer for <em>Health Policy</em>, <em>Quality &amp; Quantity</em>, <em>Social Indicators Research</em>, <em>Scientific Reports</em>, <em>International Journal of Information Management</em> and others. Member of SIS, ASA, AILC and AIQUAV.</p>
+    </div>
+  </div>
+  <div class="pj-card c-coral reveal">
+    <div class="pj-head">
+      <div class="ic"><i class="bi bi-building-fill"></i></div>
+      <div><span class="k">Department · DiSES</span><h3 class="anchored">Institutional roles</h3></div>
+    </div>
+    <div class="pj-body">
+      <p>Member of the <strong>Communication and Social Media Committee</strong> of the Department of Economics and Statistics (since 2026) and of the department's <strong>Visiting Committee</strong> (since 2021).</p>
+    </div>
+  </div>
+</div>
 
 
 
 </main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var main = document.querySelector("main.content") || document.body;
+
+  /* ---------- Publications: highlight name, toolbar, search & filters ---------- */
+  if (document.body.classList.contains("page-publications")) {
+    var sections = Array.prototype.slice.call(main.querySelectorAll("section.level2"));
+    var palette = ["coral", "teal", "sun", "violet", "sky", "pink", "lime"];
+    var pubSections = [];
+
+    sections.forEach(function (sec, i) {
+      var items = sec.querySelectorAll(":scope > ul > li");
+      if (!items.length) return;
+      var color = palette[pubSections.length % palette.length];
+      sec.classList.add("pub-section", "accent-" + color);
+      var h = sec.querySelector("h2");
+      var badge = document.createElement("span");
+      badge.className = "pub-count";
+      badge.textContent = items.length;
+      h.appendChild(badge);
+      items.forEach(function (li) {
+        li.innerHTML = li.innerHTML.replace(/Spano,\s*M\./g, '<span class="me">Spano, M.</span>');
+        var m = li.textContent.match(/\((\d{4})\)/);
+        if (m) li.setAttribute("data-year", m[1]);
+      });
+      pubSections.push({ sec: sec, id: sec.id, title: h.firstChild.textContent.trim(), color: color, n: items.length });
+    });
+
+    if (pubSections.length) {
+      var total = pubSections.reduce(function (a, s) { return a + s.n; }, 0);
+      var bar = document.createElement("div");
+      bar.className = "pub-toolbar";
+      var chips = '<button class="pub-chip active" data-target="all">All <b>' + total + '</b></button>';
+      pubSections.forEach(function (s) {
+        chips += '<button class="pub-chip chip-' + s.color + '" data-target="' + s.id + '">' + s.title + ' <b>' + s.n + '</b></button>';
+      });
+      bar.innerHTML =
+        '<div class="pub-search"><i class="bi bi-search"></i>' +
+        '<input type="search" placeholder="Search by title, co-author, journal, year…" aria-label="Search publications"></div>' +
+        '<div class="pub-chips">' + chips + '</div>' +
+        '<p class="pub-empty" hidden>No publications match your search.</p>';
+      pubSections[0].sec.parentNode.insertBefore(bar, pubSections[0].sec);
+
+      var input = bar.querySelector("input");
+      var empty = bar.querySelector(".pub-empty");
+      var current = "all";
+
+      function apply() {
+        var q = input.value.trim().toLowerCase();
+        var shown = 0;
+        pubSections.forEach(function (s) {
+          var visibleInSec = 0;
+          var sectionOn = current === "all" || current === s.id;
+          s.sec.querySelectorAll(":scope > ul > li").forEach(function (li) {
+            var ok = sectionOn && (!q || li.textContent.toLowerCase().indexOf(q) !== -1);
+            li.hidden = !ok;
+            if (ok) visibleInSec++;
+          });
+          s.sec.hidden = visibleInSec === 0;
+          shown += visibleInSec;
+        });
+        empty.hidden = shown !== 0;
+      }
+      input.addEventListener("input", apply);
+      bar.querySelectorAll(".pub-chip").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          bar.querySelectorAll(".pub-chip").forEach(function (b) { b.classList.remove("active"); });
+          btn.classList.add("active");
+          current = btn.getAttribute("data-target");
+          apply();
+        });
+      });
+    }
+  }
+
+  /* ---------- Reveal on scroll ---------- */
+  var reveal = document.querySelectorAll(".reveal");
+  if ("IntersectionObserver" in window && reveal.length) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add("is-visible"); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.12 });
+    reveal.forEach(function (el) { io.observe(el); });
+  } else {
+    reveal.forEach(function (el) { el.classList.add("is-visible"); });
+  }
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -561,6 +819,37 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Maria Spano · University of Naples Federico II</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./contacts.html">
+<p>Contacts</p>
+</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=kh_hGT0AAAAJ">
+      <i class="bi bi-mortarboard-fill" role="img" aria-label="Google Scholar">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/mariaspano">
+      <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 

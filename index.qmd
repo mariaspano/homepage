@@ -54,7 +54,7 @@ format:
       <span class="ms-eyebrow">About</span>
       <h2>Hi, I'm Maria</h2>
       <p>I am a <strong>Tenure-Track Assistant Professor (RTDB)</strong> in <em>Social Statistics</em> (STAT-03/B) at the <strong>University of Naples Federico II</strong>, Department of Economics and Statistics, where I also earned my <strong>Ph.D. in Statistics</strong>. I hold the <strong>National Scientific Qualification as Associate Professor</strong> (13/D3, valid until 2034).</p>
-      <p>My research focuses on <strong>quantitative methods for text and data analysis</strong>, with an emphasis on computational approaches to social science and bibliometrics. Since 2017 I have been part of the development team of <a href="https://www.bibliometrix.org" target="_blank">bibliometrix</a>; I co-develop <a href="https://cran.r-project.org/package=tall" target="_blank">TALL</a> and <a href="https://doi.org/10.32614/CRAN.package.themescopeR" target="_blank">themescopeR</a>, and I am a member of the academic spin-off <a href="https://www.k-synth.com" target="_blank">K-Synth</a> and of the <strong>VRD Lab</strong> for research and teaching evaluation.</p>
+      <p>My research focuses on <strong>quantitative methods for text and data analysis</strong>, with an emphasis on computational approaches to social science and bibliometrics. Since 2017 I have been part of the development team of <a href="https://www.bibliometrix.org" target="_blank">bibliometrix</a>; I co-develop <a href="https://massimoaria.github.io/tall/" target="_blank">TALL</a> and <a href="https://github.com/lucadaniello/themescopeR" target="_blank">themescopeR</a>, and I am a member of the academic spin-off <a href="https://www.bibliometrix.org/k-synth-lab/" target="_blank">K-Synth</a> and of the <strong>VRD Lab</strong> for research and teaching evaluation.</p>
       <p>Since 2024 I have been a permanent member of the <strong>Scientific Committee of JADT</strong> (International Conference on Statistical Analysis of Textual Data). I chaired the organising committee of JADT 2022 in Naples and served on the organising committee of CLADAG 2025. I took part in the PRIN 2022 projects <strong>SciK-Health</strong> and <strong>The value of scientific production for patient care in Academic Health Science Centres</strong>, and I am a member of the Andalusian FEDER project <strong>C-ING-165-UGR23</strong> with the University of Granada. At DiSES I sit on the <strong>Visiting Committee</strong> (since 2021) and the <strong>Communication and Social Media Committee</strong> (since 2026).</p>
     </div>
     <div class="ms-edu reveal">
@@ -139,7 +139,7 @@ format:
           <p>R package and Biblioshiny app for science mapping and bibliometric analysis.</p>
         </div>
       </a>
-      <a class="ms-feature c-teal reveal" href="https://cran.r-project.org/package=tall" target="_blank">
+      <a class="ms-feature c-teal reveal" href="https://massimoaria.github.io/tall/" target="_blank">
         <div class="ms-feature-logo"><img src="images/logos/tall-hex.jpg" alt="TALL logo"></div>
         <div class="ms-feature-body">
           <span class="k">R / Shiny app</span>
@@ -147,7 +147,7 @@ format:
           <p>Text Analysis for All: explore, model and visualise textual data without coding.</p>
         </div>
       </a>
-      <a class="ms-feature c-sky reveal" href="https://doi.org/10.32614/CRAN.package.themescopeR" target="_blank">
+      <a class="ms-feature c-sky reveal" href="https://github.com/lucadaniello/themescopeR" target="_blank">
         <div class="ms-feature-logo"><img src="images/logos/themescoper.svg" alt="themescopeR logo"></div>
         <div class="ms-feature-body">
           <span class="k">R package</span>
@@ -156,7 +156,7 @@ format:
         </div>
       </a>
       <a class="ms-feature c-coral reveal" href="https://www.bibliometrix.org/sssm" target="_blank">
-        <div class="ms-feature-logo ph"><i class="bi bi-sun"></i></div>
+        <img class="ms-feature-photo" src="images/2026/ss26-group.jpg" alt="Summer School in Science Mapping 2026, class photo">
         <div class="ms-feature-body">
           <span class="k">Training</span>
           <h3>Summer School in Science Mapping</h3>

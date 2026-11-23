@@ -33,6 +33,7 @@ format:
     <div class="pj-body">
       <p>An interactive R-Shiny application for exploring, modelling and visualising textual data, designed for researchers without programming skills. Published in <em>SoftwareX</em> (2026).</p>
       <div class="pj-links">
+        <a href="https://massimoaria.github.io/tall/" target="_blank">Website</a>
         <a href="https://cran.r-project.org/package=tall" target="_blank">CRAN</a>
       </div>
     </div>
@@ -46,7 +47,8 @@ format:
     <div class="pj-body">
       <p>Social representation analysis via semantic network mapping. It implements the ThemeScope approach to quantitative thematic analysis of digital arenas (<em>Journal of Information Science</em>, 2026).</p>
       <div class="pj-links">
-        <a href="https://doi.org/10.32614/CRAN.package.themescopeR" target="_blank">CRAN</a>
+        <a href="https://github.com/lucadaniello/themescopeR" target="_blank">GitHub</a>
+        <a href="https://cran.r-project.org/package=themescopeR" target="_blank">CRAN</a>
       </div>
     </div>
   </div>
@@ -95,7 +97,7 @@ format:
     </div>
     <div class="pj-body">
       <p>Member of <strong>K-Synth</strong>, an academic spin-off producing knowledge from large, heterogeneous data with statistical and data science methods, and of the <strong>VRD Lab</strong>, the DiSES laboratory for the analysis and evaluation of research and teaching.</p>
-      <div class="pj-links"><a href="https://www.k-synth.com" target="_blank">K-Synth</a></div>
+      <div class="pj-links"><a href="https://www.bibliometrix.org/k-synth-lab/" target="_blank">K-Synth</a></div>
     </div>
   </div>
 
@@ -107,6 +109,7 @@ format:
 <div class="pj-grid">
 
   <div class="pj-card c-sky reveal">
+    <img class="pj-img" src="images/2026/ss26-group.jpg" alt="Summer School 2026 class photo">
     <div class="pj-head">
       <div class="ic"><i class="bi bi-sun-fill"></i></div>
       <div><span class="k">Summer School · Naples</span><h3>Science Mapping</h3></div>

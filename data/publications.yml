@@ -487,9 +487,9 @@ publications:
   doi: 10.32614/cran.package.themescoper
   citation: >-
     D'Aniello, L., Misuraca, M., & Spano, M. (2026). **themescopeR: Social Representation Analysis via
-    Semantic Network Mapping** — R package. CRAN. [DOI](https://doi.org/10.32614/CRAN.package.themescopeR)
+    Semantic Network Mapping** — R package. [GitHub](https://github.com/lucadaniello/themescopeR) [CRAN](https://doi.org/10.32614/CRAN.package.themescopeR)
 - type: other
   year: 2023
   citation: >-
     Aria, M., Cuccurullo, C., D'Aniello, L., Misuraca, M., & Spano, M. (2023). **TALL: Text Analysis for
-    All** — R/Shiny application. CRAN. [cran.r-project.org/package=tall](https://cran.r-project.org/web/packages/tall/index.html)
+    All** — R/Shiny application. [Website](https://massimoaria.github.io/tall/) [CRAN](https://cran.r-project.org/package=tall)

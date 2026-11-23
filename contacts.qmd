@@ -52,7 +52,7 @@ format:
 <div class="ct-links">
   <a href="https://www.dises.unina.it" target="_blank"><i class="bi bi-bank"></i> Dept. of Economics and Statistics</a>
   <a href="https://www.unina.it" target="_blank"><i class="bi bi-building"></i> University of Naples Federico II</a>
-  <a href="https://www.k-synth.com" target="_blank"><i class="bi bi-lightbulb"></i> K-Synth Academic Spin-off</a>
+  <a href="https://www.bibliometrix.org/k-synth-lab/" target="_blank"><i class="bi bi-lightbulb"></i> K-Synth Academic Spin-off</a>
   <a href="https://www.bibliometrix.org" target="_blank"><i class="bi bi-diagram-3"></i> Bibliometrix</a>
   <a href="https://www.bibliometrix.org/sssm" target="_blank"><i class="bi bi-sun"></i> Summer School in Science Mapping</a>
 </div>

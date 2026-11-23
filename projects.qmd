@@ -115,7 +115,7 @@ format:
       <div><span class="k">Summer School · Naples</span><h3>Science Mapping</h3></div>
     </div>
     <div class="pj-body">
-      <p>Coordinator and lecturer of the Summer School <em>Science Mapping: Systematic Literature Review with Bibliometrix and Biblioshiny</em> (four editions, 2023–2026) and of its 1st International Edition (June 2025).</p>
+      <p>Coordinator and lecturer of the Summer School <em>Science Mapping: Systematic Literature Review with Bibliometrix and Biblioshiny</em> (four editions, 2023–2026) and of its 1st International Edition (June 2025). <strong>Next edition: 24–28 May 2027.</strong></p>
       <div class="pj-links">
         <a href="https://www.bibliometrix.org/sssm" target="_blank">Summer School</a>
         <a href="teaching.html">Teaching</a>

@@ -912,7 +912,7 @@ a.ct-card:hover { transform: translateY(-4px); box-shadow: var(--sh-md); }
 .pj-head .ic.logo { background: #fff; padding: 4px; flex-basis: 72px; height: 72px; box-shadow: var(--sh-sm); }
 .pj-head .ic.logo { overflow: hidden; }
 .pj-head .ic.logo img { width: 64px; height: 64px; object-fit: contain; }
-.ms-hero-photo img { object-position: 50% 30%; }
+.ms-hero-photo img { object-position: 50% 35%; }
 @media (max-width: 991px) { .ms-feature-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 640px) { .ms-feature-grid { grid-template-columns: 1fr; } }
 .ms-feature img.ms-feature-photo { width: 100%; height: 170px; aspect-ratio: auto; object-fit: cover; object-position: 50% 45%; }

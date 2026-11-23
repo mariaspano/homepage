@@ -37,7 +37,7 @@ format:
       </div>
     </div>
     <div class="ms-hero-photo">
-      <img src="images/2026/portrait-home.jpg" alt="Maria Spano speaking at JADT 2026">
+      <img src="images/2026/portrait-home.jpg" alt="Maria Spano presenting at SIS-FENStatS 2026, Rome">
     </div>
   </div>
 </section>
@@ -160,7 +160,7 @@ format:
         <div class="ms-feature-body">
           <span class="k">Training</span>
           <h3>Summer School in Science Mapping</h3>
-          <p>Coordinator and lecturer of the Naples summer school, now in its fourth edition.</p>
+          <p>Coordinator and lecturer of the Naples summer school. The V edition runs 24–28 May 2027.</p>
         </div>
       </a>
     </div>
@@ -194,8 +194,8 @@ format:
         <p>Two papers on climate discourse and AI news frames presented at <strong>JADT 2026</strong> in Palermo, and one at <strong>SIS-FENStatS 2026</strong> in Rome.</p>
       </div>
       <div class="ms-news-item c-pink reveal">
-        <div class="ms-news-date">May<b>2026</b></div>
-        <p>IV edition of the <strong>Summer School in Science Mapping</strong>, Naples.</p>
+        <div class="ms-news-date">May<b>2027</b></div>
+        <p><strong>Coming up:</strong> V edition of the <a href="https://www.bibliometrix.org/sssm" target="_blank">Summer School in Science Mapping</a>, Naples, 24–28 May 2027.</p>
       </div>
     </div>
   </div>

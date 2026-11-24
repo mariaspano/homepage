@@ -37,7 +37,7 @@ format:
       </div>
     </div>
     <div class="ms-hero-photo">
-      <img src="images/2026/portrait-home.jpg" alt="Maria Spano presenting at SIS-FENStatS 2026, Rome">
+      <img src="images/2026/portrait-home.jpg" alt="Maria Spano">
     </div>
   </div>
 </section>

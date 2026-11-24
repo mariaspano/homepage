@@ -53,5 +53,5 @@ format:
 <a href="images/2026/ss26-selfie.jpg" data-lightbox="ss26" data-title="Summer School 2026"><img src="images/2026/ss26-selfie.jpg" alt="Summer School 2026" loading="lazy"><span class="cap">Summer School 2026</span></a>
 <a href="images/2026/ss26-dinner.jpg" data-lightbox="ss26" data-title="Summer School 2026 · social dinner"><img src="images/2026/ss26-dinner.jpg" alt="Summer School 2026 · social dinner" loading="lazy"><span class="cap">Summer School 2026 · social dinner</span></a>
 <a href="images/2026/ss26-naples-underground.jpg" data-lightbox="ss26" data-title="Summer School 2026 · Naples"><img src="images/2026/ss26-naples-underground.jpg" alt="Summer School 2026 · Naples" loading="lazy"><span class="cap">Summer School 2026 · Naples</span></a>
-<a href="images/2026/irs-lab-workshop.jpg" data-lightbox="ss26" data-title="Workshop at IRS Lab"><img src="images/2026/irs-lab-workshop.jpg" alt="Workshop at IRS Lab" loading="lazy"><span class="cap">Workshop at IRS Lab</span></a>
+<a href="images/2026/irs-lab-workshop.jpg" data-lightbox="ss26" data-title="SSSM 2026"><img src="images/2026/irs-lab-workshop.jpg" alt="SSSM 2026" loading="lazy"><span class="cap">SSSM 2026</span></a>
 </div>

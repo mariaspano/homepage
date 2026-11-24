@@ -125,11 +125,11 @@ format:
 
   <div class="pj-card c-pink reveal">
     <div class="pj-head">
-      <div class="ic"><i class="bi bi-people-fill"></i></div>
+      <div class="ic logo"><img src="images/logos/jadt2022.png" alt="JADT 2022 logo"></div>
       <div><span class="k">Scientific community</span><h3>JADT</h3></div>
     </div>
     <div class="pj-body">
-      <p>Permanent member, since 2024, of the Scientific Committee of the International Conference on Statistical Analysis of Textual Data. Co-editor of the JADT 2022 proceedings (Naples).</p>
+      <p>Permanent member, since 2024, of the Scientific Committee of the International Conference on Statistical Analysis of Textual Data. Chair of the organising committee of JADT 2022 (Naples) and co-editor of its proceedings.</p>
       <div class="pj-links">
         <a href="publications.html">Proceedings</a>
       </div>
